@@ -1,0 +1,29 @@
+# Education Template
+- name: University of Illinois at Urbana-Champaign
+  dates: 2015 - Present
+  qualification: PhD in Civil Engineering
+  #quote: >
+  description: |
+    Concentration: Sustainable and Resilient Infrastructure Systems
+    <br />Minor 1: Computational Science and Engineering
+    <br />Minor 2: Statistics
+    <br />GPA: 3.90
+    <br />Selected courses: Deep Learning, Applied Machine Learning, Uncertainty Quantification, Computational Statistics, Applied Bayesian Methods, Random Precesses, Numerical Analysis.
+
+- name: George Washington University
+  dates: 2013 - 2015
+  qualification: MSc in Civil Engineering
+  #quote: >
+  description: |
+    Concentration: Water Resources Engineering
+    <br />GPA: 3.96
+    <br />Selected courses: Analytical Methods in Engineering, Finite Element Methods, Fluid Mechanics, Computational Fluid Dynamics, Free Surface Flow.
+
+- name: Sharif University of Technology
+  dates: 2009 - 2013
+  qualification: BSc in Civil Engineering
+  #quote: >
+  description: |
+    Concentration: Civil Engineering
+    <br />GPA: 16.0
+    <br />Selected courses: Numerical Computation, Computer Application in Civil Engineering, Engineering Probability and Statistics, Computer Programming.
