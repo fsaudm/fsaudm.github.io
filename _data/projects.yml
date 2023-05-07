@@ -1,7 +1,7 @@
 # Project template
 
 - name: Recursive Estimation of Polynomial Approximation using the Kaczmarz Algorithm
-  #link: github.com/mnabian
+  #link: github.com/fsaudm
   github: fsaudm/Recursive-Estimation-of-Polynomial-Approximation-Kaczmarz-Algorithm
   description: | # this will include new lines to allow paragraphs
     On-going
