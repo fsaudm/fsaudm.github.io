@@ -18,7 +18,7 @@ linkedin_username: faridsaud
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: profile.jpeg
+about_profile_image: profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am gradaute student in the Civil and Environmental Engineering at the University of Illinois at Urbana-Champaign, focused on Construction Engineering and Management, SRIS, and AI. My research interests include <mark>artificial intelligence</mark>, <mark>machine learning</mark>, and <mark>deep learning</mark>.
 
