@@ -4,7 +4,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 
 # Personal info
 name: Farid Saud
-title: Graduate Student at UIUC
+title: Civil Engineer | Data Science + Construction Engineering and Management
 email: gfs3@illinois.edu
 phone: 224-266-4646
 website: fsaudm.github.io
@@ -20,13 +20,15 @@ linkedin_username: faridsaud
 # about_title: About Me (Use this to override about section title)
 about_profile_image: profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am gradaute student in the Civil and Environmental Engineering at the University of Illinois at Urbana-Champaign, focused on Construction Engineering and Management, SRIS, and AI. My research interests include <mark>artificial intelligence</mark>, <mark>machine learning</mark>, and <mark>deep learning</mark>. You may want to take a look at my [CV](https://drive.google.com/file/d/15XH2GQNulVMjeY3VDO7qOKipd9Xe0BeJ/view?usp=sharing).
+  I recently graduated with a Master's in Civil and Environmental Engineering from the University of Illinois at Urbana-Champaign, where I specialized in Construction Engineering and Management, SRIS, and AI applications. Within the realm of Construction Management, I've developed a keen interest in <mark>Building Information Modeling (BIM)</mark> and <mark>Virtual Design and Construction (VDC)</mark>, understanding their transformative potential in modern infrastructure projects. My passion, however, lies at the intersection of <mark>deep learning</mark>, <mark>machine learning</mark>, and <mark>data science</mark>. While I've applied these techniques to civil engineering and construction, I'm eager to explore their broader applications across various industries and challenges. As a fusion of engineer and data enthusiast, I'm actively seeking opportunities that allow me to expand my horizons and leverage these computational techniques to their full potential. For a comprehensive view of my academic and professional journey, please refer to my [CV](https://drive.google.com/file/d/15XH2GQNulVMjeY3VDO7qOKipd9Xe0BeJ/view?usp=sharing).
 
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+
 
 # Education Section
 # educaton_title: Education #(Use this to override about education section title)
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
 
 # Publications Section
 # Publications_title: Publications
