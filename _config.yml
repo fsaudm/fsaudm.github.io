@@ -36,8 +36,11 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 more_title: Relevant Coursework
 more_content: | 
+ <br />
 
-
+more_title: Languages
+more_content: | 
+ <br />
 
 
 # Footer
