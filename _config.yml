@@ -4,7 +4,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 
 # Personal info
 name: Farid Saud
-title: Civil Engineer | Data Science + Construction Engineering and Management
+title: Civil Engineer & Data Scientist | Construction Engineering and Management
 email: gfs3@illinois.edu
 phone: 224-266-4646
 website: fsaudm.github.io
@@ -34,9 +34,67 @@ about_content: | # this will include new lines to allow paragraphs
 # Publications_title: Publications
 
 # More Section
-more_title: Honors & Awards
+more_title: Relevant Coursework
 more_content: | 
-  - To be continued
+- Data Science for CEE
+- Machine Learning for CEE
+- Statistical Modeling
+- Advanced Data Analysis
+- Infrastructure Sensing
+- Construction Optimization
+- Construction Data Modeling
+- Construction Engineering
+- Construction Planning
+- Cost Analysis
+
+more_title: Languages
+more_content: |
+- Spanish: Native Language
+- English: Full Professional Proficiency
+- Italian: Professional Working Proficiency
+- French: Beginner
+- Arabic: Beginner
+
+more_title: Soft Skills and Strengths
+more_content: |
+- Leadership
+- Curiosity
+- Flexibility
+- Autonomy
+- Adaptability
+- Problem Solving
+- Team Working
+- Love Learning New Things
+- Good Communication
+- Diplomacy
+
+more_title: Professional Skills
+more_content: |
+- Machine Learning
+- Deep Learning
+- BIM
+- VDC
+- Construction Management
+
+more_title: Information Technology Skills
+more_content: |
+- Engineering Software and Tools: Autodesk AutoCAD, Civil 3D, REVIT, NAVISWORKS, Oracle PRIMAVERA P6, MS Projects
+- Data Analysis: Python/R, Tableau
+- Office Automation: MS Office (Excel & VBA, Word, PowerPoint)
+
+more_title: Programming and Data Manipulation
+more_content: |
+- Python
+- R
+- Julia
+- MATLAB
+- C++
+- SQL
+
+
+
+
+
 
 # Footer
 footer_show_references: true
