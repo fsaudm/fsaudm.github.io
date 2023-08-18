@@ -37,10 +37,66 @@ about_content: | # this will include new lines to allow paragraphs
 more_title: Relevant Coursework
 more_content: | 
  <br />
+ - Data Science for CEE
+ - Machine Learning for CEE
+ - Statistical Modeling
+ - Advanced Data Analysis
+ - Infrastructure Sensing
+ - Construction Optimization
+ - Construction Data Modeling
+ - Construction Engineering
+ - Construction Planning
+ - Cost Analysis
 
-more_title: Languages
-more_content: | 
+languages_title: Languages
+languages_content: |
  <br />
+  - Spanish: Native Language
+  - English: Full Professional Proficiency
+  - Italian: Professional Working Proficiency
+  - French: Beginner
+  - Arabic: Beginner
+  
+soft_skills_title: Soft Skills and Strengths
+soft_skills_content: |
+ <br />
+  - Leadership
+  - Curiosity
+  - Flexibility
+  - Autonomy
+  - Adaptability
+  - Problem Solving
+  - Team Working
+  - Love Learning New Things
+  - Good Communication
+  - Diplomacy
+
+professional_skills_title: Professional Skills
+professional_skills_content: |
+ <br />
+  - Machine Learning
+  - Deep Learning
+  - BIM
+  - VDC
+  - Construction Management
+
+it_skills_title: Information Technology Skills
+it_skills_content: |
+ <br />
+  - Engineering Software and Tools: Autodesk AutoCAD, Civil 3D, REVIT, NAVISWORKS, Oracle PRIMAVERA P6, MS Projects
+  - Data Analysis: Python/R, Tableau
+  - Office Automation: MS Office (Excel & VBA, Word, PowerPoint)
+
+programming_title: Programming and Data Manipulation
+programming_content: |
+ <br />
+  - Python
+  - R
+  - Julia
+  - MATLAB
+  - C++
+  - SQL
+
 
 
 # Footer
