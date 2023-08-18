@@ -1,7 +1,8 @@
 # Project template
 
-- name: Recursive Estimation of Polynomial Approximation using the Kaczmarz Algorithm
+- name: A computationally fast online model for accurate prediction ofpost-disaster traffic conditions
   #link: github.com/fsaudm
   github: fsaudm/Recursive-Estimation-of-Polynomial-Approximation-Kaczmarz-Algorithm
   description: | # this will include new lines to allow paragraphs
-    On-going
+    The original research by Professor Meidani introduced the application of the Kaczmarz algorithm for real-time, short-term traffic prediction. The proposed method stands out due to its computational efficiency, adaptability to changing traffic conditions, and its unique capability to swiftly incorporate newly streamed data. By leveraging polynomial approximations and exploring various estimation techniques, the paper achieved robust predictions, particularly crucial for atypical traffic scenarios.
+    Expanding upon this foundational work, I sought to critically assess and replicate the methodology, identifying potential areas of refinement. A significant aspect of this exploration delved into the ordering of the "multivariate vector." The findings highlight the spatial ordering's superior prediction accuracy over the time-based order. This deeper dive further optimizes real-time traffic prediction in extreme weather conditions using the proposed predictive analysis. You can fin this project [here](https://uq.cee.illinois.edu/publication.html#).
