@@ -1,23 +1,21 @@
 # Education Template
 - name: University of Illinois at Urbana-Champaign
-  dates: 2021 - Present
-  qualification: MSc in Civil Engineering
+  dates: 2021 - 2023
+  qualification: Master of Science in Data Science + Civil and Environmental Engineering
   #quote: >
   description: |
     Concentration: Construction Engineering and Management
-    <br />Minor 1: Data Science
-    <br />Minor 2: Statistics
-    <br />GPA: 4.0
-    <br />Selected courses: Data Science for CEE, Machine Learning for CEE, Construction Optimization, Construction Data Modeling, Construction Engineering, Construction Planning, Cost Analysis, Advanced Data Analysis, Deep Learning, Statistical Modeling, Applied Machine Learning.
+    <br />GPA: 3.95/4.0
+    <br />Selected courses: Data Science for CEE, Machine Learning for CEE,  Advanced Data Analysis, Deep Learning, Statistical Modeling, Construction Optimization, Construction Data Modeling, Construction Engineering, Construction Planning, Cost Analysis.
 
 - name: Universidad San Francisco de Quito
   dates: 2017 - 2021
-  qualification: BSc in Civil Engineering
+  qualification:  Bachelor of Science in Civil Engineering
   #quote: >
   description: |
     Concentration: Civil Engineering
-    <br />GPA: 3.5
+    <br />GPA: 3.5/4.0
     <br />Thesis: “Productivity in Construction: Measurement Methodologies in Ecuador”. 	Score: 99/100
-    <br />Selected courses: Numerical Analysis, Programming for Engineering,  Probability for Engineering.
+    <br />Selected courses: Numerical Analysis, Earthquake Engineering, Geotehcnical Engineering, Transportation Engineering, Probability for Engineering.
 
 
