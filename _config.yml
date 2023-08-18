@@ -46,17 +46,16 @@ more_content: |
 - Construction Engineering
 - Construction Planning
 - Cost Analysis
-
-more_title: Languages
-more_content: |
+languages_title: Languages
+languages_content: |
 - Spanish: Native Language
 - English: Full Professional Proficiency
 - Italian: Professional Working Proficiency
 - French: Beginner
 - Arabic: Beginner
 
-more_title: Soft Skills and Strengths
-more_content: |
+soft_skills_title: Soft Skills and Strengths
+soft_skills_content: |
 - Leadership
 - Curiosity
 - Flexibility
@@ -68,22 +67,22 @@ more_content: |
 - Good Communication
 - Diplomacy
 
-more_title: Professional Skills
-more_content: |
+professional_skills_title: Professional Skills
+professional_skills_content: |
 - Machine Learning
 - Deep Learning
 - BIM
 - VDC
 - Construction Management
 
-more_title: Information Technology Skills
-more_content: |
+it_skills_title: Information Technology Skills
+it_skills_content: |
 - Engineering Software and Tools: Autodesk AutoCAD, Civil 3D, REVIT, NAVISWORKS, Oracle PRIMAVERA P6, MS Projects
 - Data Analysis: Python/R, Tableau
 - Office Automation: MS Office (Excel & VBA, Word, PowerPoint)
 
-more_title: Programming and Data Manipulation
-more_content: |
+programming_title: Programming and Data Manipulation
+programming_content: |
 - Python
 - R
 - Julia
