@@ -1,10 +1,12 @@
 <div class="container programming-container">
-    <p>
-        {{ site.data.programming.description }}
-    </p>
-    <ul>
-        {% for language in site.data.programming.languages %}
-            <li>{{ language }}</li>
-        {% endfor %}
-    </ul>
+  <h3>{{ site.programming_title | default: "Programming and Data Manupulation" }}</h3>
+  <hr> <!-- This is the horizontal line -->
+  <p>
+    {{ site.data.programming.description }}
+  </p>
+  <ul>
+    {% for language in site.data.programming.languages %}
+      <li>{{ language }}</li>
+    {% endfor %}
+  </ul>
 </div>
