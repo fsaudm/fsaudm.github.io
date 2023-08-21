@@ -1,24 +1,26 @@
 description: "I am proficient with essential and popular tools for modern problem-solving and innovation in the field of civil engineering and construction management. Here are the software and technologies I work with:"
 
 engineering:
-- name: engineering
-  - Autodesk AutoCAD
-  - Civil 3D
-  - REVIT
-  - NAVISWORKS
-
+  name: "Engineering"
+  skills:
+    - Autodesk AutoCAD
+    - Civil 3D
+    - REVIT
+    - NAVISWORKS
 
 software_and_tools:
-- name: Software and Tools
-  - Oracle PRIMAVERA P6
-  - MS Projects
-
+  name: "Software and Tools"
+  skills:
+    - Oracle PRIMAVERA P6
+    - MS Projects
 
 data_analysis:
-- name: Data Analysis
-  - Python/R
-  - Tableau
+  name: "Data Analysis"
+  skills:
+    - Python/R
+    - Tableau
 
 office_automation:
-- name: Office Automation
-  - MS Office (Excel & VBA, Word, PowerPoint)
+  name: "Office Automation"
+  skills:
+    - MS Office (Excel & VBA, Word, PowerPoint)
