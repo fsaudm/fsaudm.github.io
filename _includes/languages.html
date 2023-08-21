@@ -3,7 +3,7 @@
     <p>
         {{ site.data.languages.description }}
     </p>
-    <ul>
+    <ul style="list-style: none; padding-left: 0;">
         {% for language in site.data.languages.languages %}
         <li>
             <img src="https://flagsapi.com/{{ language.country_code }}/flat/32.png" alt="{{ language.name }} flag" style="margin-right: 10px;">
