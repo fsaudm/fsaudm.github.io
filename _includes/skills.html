@@ -1,0 +1,31 @@
+<div class="container skills-container">
+  <h3>{{ site.skills_title | default: "Information Technology Skills" }}</h3>
+  
+  <h4>Engineering:</h4>
+  <ul>
+    {% for skill in site.data.skills.engineering %}
+      <li>{{ skill }}</li>
+    {% endfor %}
+  </ul>
+  
+  <h4>Software and Tools:</h4>
+  <ul>
+    {% for skill in site.data.skills.software_and_tools %}
+      <li>{{ skill }}</li>
+    {% endfor %}
+  </ul>
+
+  <h4>Data Analysis:</h4>
+  <ul>
+    {% for skill in site.data.skills.data_analysis %}
+      <li>{{ skill }}</li>
+    {% endfor %}
+  </ul>
+
+  <h4>Office Automation:</h4>
+  <ul>
+    {% for skill in site.data.skills.office_automation %}
+      <li>{{ skill }}</li>
+    {% endfor %}
+  </ul>
+</div>
