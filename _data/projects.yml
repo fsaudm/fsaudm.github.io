@@ -1,6 +1,6 @@
 # Project template
 
-- name: A computationally fast online model for accurate prediction ofpost-disaster traffic conditions
+- name: A computationally fast online model for accurate prediction of post-disaster traffic conditions
   #link: github.com/fsaudm
   github: fsaudm/Recursive-Estimation-of-Polynomial-Approximation-Kaczmarz-Algorithm
   description: | # this will include new lines to allow paragraphs
