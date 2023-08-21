@@ -1,31 +1,58 @@
 <div class="container skills-container">
   <h3>{{ site.skills_title | default: "Information Technology Skills" }}</h3>
-  
-  <h4>Engineering:</h4>
-  <ul>
-    {% for skill in site.data.skills.engineering %}
-      <li>{{ skill }}</li>
-    {% endfor %}
-  </ul>
-  
-  <h4>Software and Tools:</h4>
-  <ul>
-    {% for skill in site.data.skills.software_and_tools %}
-      <li>{{ skill }}</li>
-    {% endfor %}
-  </ul>
 
-  <h4>Data Analysis:</h4>
-  <ul>
-    {% for skill in site.data.skills.data_analysis %}
-      <li>{{ skill }}</li>
-    {% endfor %}
-  </ul>
+  <div class="row clearfix skills">
+    <!-- Description -->
+    <div class="col-xs-12 col-sm-12 col-md-12 col-print-12">
+      {{ site.data.skills.description | strip | markdownify }}
+    </div>
 
-  <h4>Office Automation:</h4>
-  <ul>
-    {% for skill in site.data.skills.office_automation %}
-      <li>{{ skill }}</li>
-    {% endfor %}
-  </ul>
+    <!-- Engineering -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Engineering:</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.engineering %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Software and Tools -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Software and Tools:</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.software_and_tools %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Data Analysis -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Data Analysis:</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.data_analysis %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Office Automation -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Office Automation:</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.office_automation %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
