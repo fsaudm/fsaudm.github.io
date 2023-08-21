@@ -1,0 +1,12 @@
+<div class="container languages-container">
+  <h3>{{ site.languages_title | default: "Languages" }}</h3>
+  <hr> <!-- This is the horizontal line (dashed or otherwise, depending on your CSS) -->
+  <p>
+    {{ site.data.languages.description }}
+  </p>
+  <ul>
+    {% for language in site.data.languages.languages %}
+      <li><b>{{ language.name }}</b> - {{ language.proficiency }}</li>
+    {% endfor %}
+  </ul>
+</div>
