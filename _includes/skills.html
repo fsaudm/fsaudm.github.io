@@ -1,16 +1,62 @@
-{% for category in site.data.skills %}
-  {% assign details = site.data.skills[category] %}
-  
-  <!-- Category -->
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-    <h4>{{ details.name }}</h4>
+<div class="container skills-container">
+  <h3>{{ site.skills_title | default: "Information Technology Skills" }}</h3>
+
+  <div class="row clearfix skills">
+    <!-- Description -->
+    <div class="col-xs-12 col-sm-12 col-md-12 col-print-12">
+      {{ site.data.skills.description | strip | markdownify }}
+      <br>
+    </div>
+
+    <!-- Engineering -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Engineering</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.engineering %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
+
+    <!-- Software and Tools -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Software and Tools</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.software_and_tools %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
+
+    <!-- Data Analysis -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Data Analysis</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.data_analysis %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
+
+    <!-- Office Automation -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Office Automation</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.office_automation %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-    <ul>
-      {% for skill in details.skills %}
-        <li>{{ skill }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <br>
-{% endfor %}
+</div>
