@@ -11,22 +11,29 @@
     <div class="wrapper">
 
       {%- include about.html -%}
-
-      {%- if site.data.projects.size > 0 -%}
-        {%- include projects.html -%}
-      {%- endif -%}
-
       
-      
+
+
       {%- if site.data.education.size > 0 -%}
         {%- include education.html -%}
       {%- endif -%}
 
+
+
       
-      
-      {%- if site.data.experience.size > 0 -%}
-        {%- include experience.html -%}
+      {%- if site.data.projects.size > 0 -%}
+        {%- include projects.html -%}
       {%- endif -%}
+      
+
+
+      
+    
+      {%- if site.data.languages.size > 0 -%}
+        {%- include languages.html -%}
+      {%- endif -%}
+
+
 
       
       
@@ -35,6 +42,24 @@
       {%- endif -%}
 
 
+      
+
+      {%- if site.data.skills.size > 0 -%}
+        {%- include skills.html -%}
+      {%- endif -%}
+
+      
+
+
+      
+      
+
+      {%- if site.data.experience.size > 0 -%}
+        {%- include experience.html -%}
+      {%- endif -%}
+
+      
+      
       
       {%- if site.more_content -%}
         {%- include more.html -%}
