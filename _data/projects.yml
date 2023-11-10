@@ -3,7 +3,7 @@
   #link: github.com/fsaudm
   github: fsaudm/statistical-learning
   description: | # This will include new lines to allow paragraphs
-    See the R markdown file [here](https://raw.githubusercontent.com/fsaudm/statistical-learning/main/Coding%20Assigment%204/GMM-and-HMM-from-Scratch.html)
+    See the R markdown file [here](https://verdant-dasik-b42b23.netlify.app/)
 
 - name: A computationally fast online model for accurate prediction of post-disaster traffic conditions
   #link: github.com/fsaudm
