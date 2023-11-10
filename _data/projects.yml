@@ -1,9 +1,9 @@
 # Project template
 - name: Gaussian Mixture Model (GMM) and Hidden Markov Model (HMM) - An implementation from scratch in R
   #link: github.com/fsaudm
-  github: fsaudm/Recursive-Estimation-of-Polynomial-Approximation-Kaczmarz-Algorithm
+  github: fsaudm/statistical-learning
   description: | # This will include new lines to allow paragraphs
-    See the R markdown file [here](github.com/fsaudm/statistical-learning/Coding Assigment 4/GMM-and-HMM-from-Scratch.html)
+    See the R markdown file [here](https://raw.githubusercontent.com/fsaudm/statistical-learning/main/Coding%20Assigment%204/GMM-and-HMM-from-Scratch.html)
 
 - name: A computationally fast online model for accurate prediction of post-disaster traffic conditions
   #link: github.com/fsaudm
