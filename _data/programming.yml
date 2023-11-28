@@ -1,7 +1,8 @@
 description: "I am proficient in some programming languages and data manipulation tools, which I use/have used for data science and analysis, and engineering. I am always looking to learn more about these (and new) tools to expand my skills. I have experience with are:"
 languages:
   - name: R
-    devicon_class: "devicon-rstudio-plain"
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-plain.svg"
   - name: Python
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
@@ -15,5 +16,4 @@ languages:
     devicon_class: "devicon-cplusplus-plain"
   - name: SQL
     devicon_class: "devicon-microsoftsqlserver-plain"
-
-          
+    
