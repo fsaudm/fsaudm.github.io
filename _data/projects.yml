@@ -5,6 +5,18 @@
   description: | # This will include new lines to allow paragraphs
     See the R markdown file [here](https://verdant-dasik-b42b23.netlify.app/)
 
+- name: Linear Support Vector Machine (SVM) using SGD: Implementation from scratch in R
+  #link: github.com/fsaudm
+  github: fsaudm/statistical-learning
+  description: | # This will include new lines to allow paragraphs
+    See the R markdown file [here](https://fsaudm.github.io/statistical-learning/Coding5/)
+  
+- name: Walmart Store Sales Forcasting
+  #link: github.com/fsaudm
+  github: fsaudm/statistical-learning/tree/main/Project2
+  description: | # This will include new lines to allow paragraphs
+    See the R markdown file [here](https://fsaudm.github.io/statistical-learning/Project2/)
+
 - name: A computationally fast online model for accurate prediction of post-disaster traffic conditions
   #link: github.com/fsaudm
   github: fsaudm/Recursive-Estimation-of-Polynomial-Approximation-Kaczmarz-Algorithm
