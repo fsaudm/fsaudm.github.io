@@ -1,13 +1,13 @@
 # Project template
 - name: Gaussian Mixture Model (GMM) and Hidden Markov Model (HMM) - An implementation from scratch in R
   #link: github.com/fsaudm
-  github: fsaudm/statistical-learning
+  github: fsaudm/statistical-learning/tree/main/Coding4
   description: | # This will include new lines to allow paragraphs
-    See the R markdown file [here](https://verdant-dasik-b42b23.netlify.app/)
+    See the R markdown file [here](https://fsaudm.github.io/statistical-learning/Coding4/)
 
-- name: Linear Support Vector Machine (SVM) using SGD: Implementation from scratch in R
+- name: Linear Support Vector Machine (SVM) using SGD - Implementation from scratch in R
   #link: github.com/fsaudm
-  github: fsaudm/statistical-learning
+  github: fsaudm/statistical-learning/tree/main/Coding5
   description: | # This will include new lines to allow paragraphs
     See the R markdown file [here](https://fsaudm.github.io/statistical-learning/Coding5/)
   
