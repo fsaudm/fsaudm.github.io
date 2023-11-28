@@ -1,20 +1,19 @@
-description: "I am proficient with essential and popular tools for modern problem-solving and innovation in the field of civil engineering and construction management. Here are the software and technologies I work with:"
+description: "I am proficient with essential and popular tools for modern problem-solving and innovation in the fields of: civil engineering and construction management, and data science and analysis, and statistics. Here are the software and technologies I have worked/work with:"
 
-engineering:
+civil_engineering_and_construction_management:
   - Autodesk AutoCAD
   - Civil 3D
   - REVIT
   - NAVISWORKS
-
-
-software_and_tools:
   - Oracle PRIMAVERA P6
   - MS Projects
 
 
-data_analysis:
-  - Python/R
+data_science_and_analysis:
+  - R/Python
+  - PowerBI
   - Tableau
+
 
 office_automation:
   - MS Office (Excel & VBA, Word, PowerPoint)
