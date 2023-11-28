@@ -1,11 +1,15 @@
 <div class="container programming-container">
-  <h3>{{ site.programming_title | default: "Programming and Data Manupulation" }}</h3>
+  <h3>{{ site.programming_title | default: "Programming and Data Manipulation" }}</h3>
   <p>
     {{ site.data.programming.description }}
   </p>
-  <ul>
+  <ul style="list-style: none; padding-left: 0;">
     {% for language in site.data.programming.languages %}
-      <li>{{ language }}</li>
+      <li>
+        <i class="devicon-{{ language.name | downcase }}-plain colored" style="font-size: 20px; margin-right: 10px;"></i>
+        <b>{{ language.name }}</b>
+      </li>
     {% endfor %}
   </ul>
 </div>
+
