@@ -8,6 +8,21 @@
       <br>
     </div>
 
+    
+    <!-- Data Science and Analysis -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Data Science and Analysis</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.data_science_and_analysis %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
+    
+    
     <!-- Civil Engineering and Construction Management -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
       <h4>Civil Engineering and Construction Management</h4>
@@ -21,18 +36,6 @@
     </div>
     <br>
 
-    <!-- Data Science and Analysis -->
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-      <h4>Data Science and Analysis</h4>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-      <ul>
-        {% for skill in site.data.skills.data_science_and_analysis %}
-          <li>{{ skill }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    <br>
 
     <!-- Office Automation -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
