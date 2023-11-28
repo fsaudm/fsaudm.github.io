@@ -1,8 +1,15 @@
 description: "I am proficient in some programming languages and data manipulation tools, which I use/have used for data science and analysis, and engineering. I am always looking to learn more about these (and new) tools to expand my skills. I have experience with are:"
 languages:
-  - R
-  - Python
-  - Julia
-  - Matlab
-  - C++
-  - SQL
+  - name: R
+    devicon_class: "devicon-rstudio-plain colored"
+  - name: Python
+    devicon_class: "devicon-python-plain"
+  - name: Julia
+    devicon_class: "devicon-julia-plain colored"
+  - name: Matlab
+    devicon_class: "devicon-matlab-plain"
+  - name: C++
+    devicon_class: "devicon-cplusplus-plain"
+  - name: SQL
+    devicon_class: "devicon-microsoftsqlserver-plain"
+
