@@ -25,37 +25,11 @@ linkedin_username: faridsaud
 # about_title: About Me (Use this to override about section title)
 about_profile_image: profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a <mark>Data Science</mark> and <mark>Machine Learning</mark> enthusiast, currently pursuing a Master in Science degree in Statistics at the University of Illinois at Urbana-Champaign and building my career as a Data Scientist. Recently, I graduated with a Master's in Civil and Environmental Engineering from the University of Illinois at Urbana-Champaign, where I specialized in Construction Engineering and Management, SRIS, and Data Science and Machine Learning. While I have applied data science and machine learning tools and techniques to civil engineering and construction, I am eager to explore their broader applications across other industries/fields and challenges. 
+  I am a data enthusiast, currently pursuing a Master in Science degree in Statistics at the University of Illinois at Urbana-Champaign and building my career as a Data Scientist. Recently, I graduated with a Master's in Civil and Environmental Engineering from the University of Illinois at Urbana-Champaign, where I specialized in <mark>Construction Engineering and Management</mark>, <mark>SRIS</mark>, and <mark>Data Science</mark> and <mark>Machine Learning</mark>. While I have applied data science and machine learning tools and techniques to civil engineering and construction, I am eager to explore their broader applications across other industries/fields and challenges. 
   
   Within the realm of Construction Management, I am higly interested and specialized in <mark>Project Management</mark>, and <mark>Building Information Modeling (BIM)</mark> and <mark>Virtual Design and Construction (VDC)</mark> and understanding their transformative potential in modern construction projects. I am actively seeking opportunities that allow me to expand my horizons and leverage these computational techniques to their full potential. For a comprehensive, more traditional view of my academic and professional journey, please refer to my [CV](https://uofi.box.com/s/q1jzz2jo1bou04atrciunc2lwbo3wrj0).
 
   Beyond my academic and professional focus, I am actively interested in the advancements of Virtual Reality (VR) and Augmented Reality (AR), very quick vehicles and videogames. I have a profound passion for traveling and a deep love for food.
-
-
-# Education Section
-# educaton_title: Education #(Use this to override about education section title)
-
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
-
-# Publications Section
-# Publications_title: Publications
-
-# More Section
-# more_title: Relevant Coursework
-# more_content: | 
-#  <br />
-#  - Data Science for CEE
-#  - Machine Learning for CEE
-#  - Statistical Modeling
-#  - Advanced Data Analysis
-#  - Infrastructure Sensing
-#  - Construction Optimization
-#  - Construction Data Modeling
-#  - Construction Engineering
-#  - Construction Planning
-#  - Cost Analysis
-
 
 
 # Footer
