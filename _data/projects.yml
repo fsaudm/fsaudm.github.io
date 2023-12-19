@@ -3,14 +3,14 @@
   #link: github.com/fsaudm
   github: fsaudm/statistical-learning/tree/main/Coding4
   description: | # This will include new lines to allow paragraphs
-    This is an implementation of a Gaussian Mixture Model using the Expectation-Maximization algorithm, and a Hidden Markov Model through the Baum-Welch and Viterbi algorithms. A detailed, step-by-step R markdown file with the code can be found [here](https://fsaudm.github.io/statistical-learning/Coding4/)
+    This is an implementation of a Gaussian Mixture Model using the Expectation-Maximization algorithm, and a Hidden Markov Model through the Baum-Welch and Viterbi algorithms. A detailed, step-by-step R markdown file with the code can be found [here](https://fsaudm.github.io/statistical-learning/Coding4/).
 
 - name: Linear SVM using SGD - Implementation from scratch in R
   #link: github.com/fsaudm
   github: fsaudm/statistical-learning/tree/main/Coding5
   description: | # This will include new lines to allow paragraphs
-    This project is an implementation of a very efficient Linear Support Vector Machine that profits from Stochastic Gradient Descent via the Pegasos algorithm, as proposed by Shalev-Shwartz et al. (2011) in this [paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://home.ttic.edu/~nati/Publications/PegasosMPB.pdf).
-    See the R markdown file [here](https://fsaudm.github.io/statistical-learning/Coding5/)
+    This project is an implementation of a very efficient Linear Support Vector Machine that profits from Stochastic Gradient Descent via the Pegasos algorithm, as proposed by Shalev-Shwartz et al. (2011) in this [PrimalEstimatedsub-GrAdientSOlverforSVM](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://home.ttic.edu/~nati/Publications/PegasosMPB.pdf) paper.
+    You can find the associated R markdown file, with details on the algorithm and the implementation [here](https://fsaudm.github.io/statistical-learning/Coding5/).
   
 - name: Walmart Store Sales Forecasting
   #link: github.com/fsaudm
@@ -18,7 +18,7 @@
   description: | # This will include new lines to allow paragraphs
     Data Analysis of historical sales from 45 Walmart stores spread across different regions and forecast of future sales using predictive models: Robust Linear Regression on smoothed data (through SVD), 
     to identify and present quantitative insights through visual displays highlighting the stores and departments projected to have the highest and lowest sales in the upcoming months. 
-    You can find an R markdown file with the code and the analysis [here](https://fsaudm.github.io/statistical-learning/Project2/)
+    You can find an R markdown file with the code and the analysis [here](https://fsaudm.github.io/statistical-learning/Project2/).
 
 - name: A computationally fast online model for accurate prediction of post-disaster traffic conditions
   #link: github.com/fsaudm
