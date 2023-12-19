@@ -9,7 +9,7 @@
   #link: github.com/fsaudm
   github: fsaudm/statistical-learning/tree/main/Coding5
   description: | # This will include new lines to allow paragraphs
-    This project is an implementation of a very efficient Linear Support Vector Machine that profits from Stochastic Gradient Descent via the Pegasos algorithm, as proposed by Shalev-Shwartz et al. (2011) in their Primal Estimated sub-GrAdient SOlver for SVM [paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://home.ttic.edu/~nati/Publications/PegasosMPB.pdf).
+    This project is an implementation of a very efficient Linear Support Vector Machine that profits from Stochastic Gradient Descent via the Pegasos algorithm, as proposed by Shalev-Shwartz et al. (2011) in their 'Primal Estimated sub-GrAdient SOlver for SVM' [paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://home.ttic.edu/~nati/Publications/PegasosMPB.pdf).
     You can find the associated R markdown file, with details on the algorithm and the implementation [here](https://fsaudm.github.io/statistical-learning/Coding5/).
   
 - name: Walmart Store Sales Forecasting
