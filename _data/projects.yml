@@ -3,23 +3,26 @@
   #link: github.com/fsaudm
   github: fsaudm/statistical-learning/tree/main/Coding4
   description: | # This will include new lines to allow paragraphs
-    See the R markdown file [here](https://fsaudm.github.io/statistical-learning/Coding4/)
+    This is an implementation of a Gaussian Mixture Model using the Expectation-Maximization algorithm, and a Hidden Markov Model through the Baum-Welch and Viterbi algorithms. A detailed, step-by-step R markdown file with the code can be found [here](https://fsaudm.github.io/statistical-learning/Coding4/)
 
-- name: Linear Support Vector Machine (SVM) using SGD - Implementation from scratch in R
+- name: Linear SVM using SGD - Implementation from scratch in R
   #link: github.com/fsaudm
   github: fsaudm/statistical-learning/tree/main/Coding5
   description: | # This will include new lines to allow paragraphs
+    This project is an implementation of a very efficient Linear Support Vector Machine that profits from Stochastic Gradient Descent via the Pegasos algorithm, as proposed by Shalev-Shwartz et al. (2011) in this [paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://home.ttic.edu/~nati/Publications/PegasosMPB.pdf).
     See the R markdown file [here](https://fsaudm.github.io/statistical-learning/Coding5/)
   
-- name: Walmart Store Sales Forcasting
+- name: Walmart Store Sales Forecasting
   #link: github.com/fsaudm
   github: fsaudm/statistical-learning/tree/main/Project2
   description: | # This will include new lines to allow paragraphs
-    See the R markdown file [here](https://fsaudm.github.io/statistical-learning/Project2/)
+    Data Analysis of historical sales from 45 Walmart stores spread across different regions and forecast of future sales using predictive models: Robust Linear Regression on smoothed data (through SVD), 
+    to identify and present quantitative insights through visual displays highlighting the stores and departments projected to have the highest and lowest sales in the upcoming months. 
+    You can find an R markdown file with the code and the analysis [here](https://fsaudm.github.io/statistical-learning/Project2/)
 
 - name: A computationally fast online model for accurate prediction of post-disaster traffic conditions
   #link: github.com/fsaudm
   github: fsaudm/Recursive-Estimation-of-Polynomial-Approximation-Kaczmarz-Algorithm
-  description: | # this will include new lines to allow paragraphs
+  description: | # This will include new lines to allow paragraphs
     The original research by Professor Hadi Meidani, from the Uncertainty Quantification (UQ) research group introduced the application of the Kaczmarz algorithm for real-time, short-term traffic prediction. The proposed method stands out due to its computational efficiency, adaptability to changing traffic conditions, and its unique capability to swiftly incorporate newly streamed data. By leveraging polynomial approximations and exploring various estimation techniques, the paper achieved robust predictions, specifically for atypical traffic scenarios.
     Expanding upon this foundational work, I sought to critically assess and replicate the methodology, identifying potential areas of refinement. This exploration resulted in the implementation of different ways of ordering the "multivariate vector." The findings highlight the spatial ordering's superior prediction accuracy over the time-based order. This deeper analysis further optimized the real-time traffic prediction in extreme weather conditions using the proposed predictive analysis. You can find this project [here](https://uq.cee.illinois.edu/publication.html#).
