@@ -22,17 +22,78 @@ languages:
 
 
 
-description2: "I am also proficient with essential and popular tools for modern problem-solving and innovation in Data Science, Analytics, Statistics. These technologies are:"
+description2: "I am also proficient with essential and popular tools for modern problem-solving and innovation in Data Manipulation, Analytics, Statistics, Machine Learning and Deep Learning. These technologies are:"
 
 data_science_and_analysis:
-  - Python: Numpy, Pandas, Matplotlib, Seaborn, statsmodels, Scikit-learn, PyTorch, TensorFlow, Streamlit, Plotly
-  - R: Tidyverse, Shiny, data.table, plotly, caret, xgboost
-  - Data Visualization and BI: Power BI, Tableau
+  - name: Numpy
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
+  - name: Pandas
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
+  - name: Matplotlib
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg"
+  - name: Seaborn
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+  - name: statsmodels
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+  - name: Scikit-learn
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
+  - name: PyTorch
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+  - name: TensorFlow
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"
+  - name: Streamlit
+    icon_type: "svg"
+    icon_url: ""https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original-wordmark.svg"
+  - name: Plotly
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg"
+  - name: Langchain
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
 
-civil_engineering_and_construction_management:
-  - Autodesk AutoCAD
-  - Civil 3D
-  - REVIT
-  - NAVISWORKS
-  - Oracle PRIMAVERA P6
-  - MS Projects
+  - name: Tidyverse
+    icon_type: "png"
+    icon_url: "https://github.com/tidyverse/tidyverse.org/blob/master/static/images/hex-tidyverse.png"
+  - name: Shiny
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+  - name: data.table
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+  - name: plotly
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+  - name: caret
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+  - name: glmnet
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+  - name: xgboost
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+
+  - name: Power BI
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+  - name: Tableau
+    icon_type: "svg"
+    icon_url: "" # Add SVG link here
+
+
+
+# civil_engineering_and_construction_management:
+#   - Autodesk AutoCAD
+#   - Civil 3D
+#   - REVIT
+#   - NAVISWORKS
+#   - Oracle PRIMAVERA P6
+#   - MS Projects
