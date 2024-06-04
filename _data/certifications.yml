@@ -1,7 +1,7 @@
 #certifications
 certifications:
   - title: 3rd Place & Best Presentation, ASHBY PRIZE IN COMPUTATIONAL SCIENCE HACKATHON
-    issuer: [Center for Artificial Intelligence Innovation](https://ai.ncsa.illinois.edu/) at the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/)
+    issuer: Center for Artificial Intelligence Innovation at the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/)
     date: May 2024
     description: |
       Awarded 3rd place (out of 50 participants) in the ASHBY PRIZE IN COMPUTATIONAL SCIENCE HACKATHON, a competition focused on using LLMs as a front-end to computational workflows. Awarded best presentation recognition for real-time data demo of product! More on this [here](https://ai.ncsa.illinois.edu/news-events/2024/05/2024-hackathon-winners-announced/).
