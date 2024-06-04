@@ -1,50 +1,56 @@
-- company: University of Illinois at Urbana-Champaign
-  dates: August 2021 - Present
-  description: |
-    **DSRS Intern**   (2024-Present)
-    <br />
-    - Write Python code for feature engineering and various data science methods.
-    - Analyze data through diverse data science techniques.
-    - Build out cloud infrastructure and set up machine learning environments.
-    - Work extensively with Microsoft Azure for data processing and analysis.
-    - Manage DSRS infrastructure including S3, Docker, and Kubernetes.
-- company: 
-  description: |
-    **Teaching Assistant**   (2021-2024)
-    <br />
-    - Recipient of the Graduate Teaching Assistantship Certificate, University of Illinois at Urbana-Champaign (2021).
-    - Consistently ranked as [Excellent Teacher](https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent): [Fall 2021](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2021-fall.pdf), [Spring 2022](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2022-spring.pdf), [Fall 2022](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2022-fall.pdf), and [Spring 2023](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2023-spring.pdf) (4 time winner).
-    - Courses Taught: 
-          - Intermediate Spanish
-          - Spanish Composition
+experience:
+  - company: University of Illinois at Urbana-Champaign
+    dates: August 2021 - Present
+    description: |
+      **DSRS Intern**   (2024-Present)
+      <br />
+      - Write Python code for feature engineering and various data science methods.
+      - Analyze data through diverse data science techniques.
+      - Build out cloud infrastructure and set up machine learning environments.
+      - Work extensively with Microsoft Azure for data processing and analysis.
+      - Manage DSRS infrastructure including S3, Docker, and Kubernetes.
+
   - company: 
-  description: |
-    **Project Manager**   (2023)
-    <br />
-    - Support design and construction execution, including assistance with project scope, contracts, budgeting, scheduling, and site visits. Consistently participating across multiple project phases, from initial planning and design to construction and eventual closeout 
-    - Regularly engage in meetings with contractors and clients, fostering effective communication and ensuring all parties are aligned on project objectives and deliverables.
-- company: 
-  description: |
-    **Construction Management Intern**   (2022)
-    <br />
-    - Supported supervision and coordination of project management services. This included assistance with project budgeting, cost estimates, scheduling, and site visits. 
-    - Assisted with the procurement of professional services, ensuring compliance with statutory requirements, as well as evaluating certificates.
-    - Monitored and reviewed federal, state, and University rules and regulations affecting contract administration and procurement of professional services, materials and labor.
-- company: Milhouse Engineering and Construction 
-  dates: June 2022 - August 2022
-  description: |
-    **Civil Engineering Intern**
-    <br/>
-    - Actively participated in the development and revision of designs and documents across various sectors including transportation, aviation, energy, and gas. Worked with clients such as IDOT, CTA, CDA, ComEd.
-    - Evaluated submittals, schedules, and design/construction standards ensuring that all projects met the required standards and specifications.
-    - Regularly engaged in meetings with contractors and clients, fostering effective communication and ensuring all parties were aligned on project objectives and deliverables
-- company: Universidad San Francisco de Quito
-  dates: January 2018 - May 2019
-  description: |
-    **Teaching Assistant**
-    <br />
-    - Recipient of the undergraduate Teaching Assistantship, Universidad San Francisco de Quito (2018).
-    - Ranked as Excellent Teacher.
-    - Courses Taught: 
-          - Topography 
-          - Geometrical Design of Roads
+    description: |
+      **Teaching Assistant**   (2021-2024)
+      <br />
+      - Recipient of the Graduate Teaching Assistantship Certificate, University of Illinois at Urbana-Champaign (2021).
+      - Consistently ranked as [Excellent Teacher](https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent): [Fall 2021](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2021-fall.pdf), [Spring 2022](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2022-spring.pdf), [Fall 2022](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2022-fall.pdf), and [Spring 2023](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2023-spring.pdf) (4 time winner).
+      - Courses Taught: 
+        - Intermediate Spanish
+        - Spanish Composition
+
+  - company: 
+    description: |
+      **Project Manager**   (2023)
+      <br />
+      - Support design and construction execution, including assistance with project scope, contracts, budgeting, scheduling, and site visits. Consistently participating across multiple project phases, from initial planning and design to construction and eventual closeout 
+      - Regularly engage in meetings with contractors and clients, fostering effective communication and ensuring all parties are aligned on project objectives and deliverables.
+
+  - company: 
+    description: |
+      **Construction Management Intern**   (2022)
+      <br />
+      - Supported supervision and coordination of project management services. This included assistance with project budgeting, cost estimates, scheduling, and site visits. 
+      - Assisted with the procurement of professional services, ensuring compliance with statutory requirements, as well as evaluating certificates.
+      - Monitored and reviewed federal, state, and University rules and regulations affecting contract administration and procurement of professional services, materials and labor.
+
+  - company: Milhouse Engineering and Construction 
+    dates: June 2022 - August 2022
+    description: |
+      **Civil Engineering Intern**
+      <br/>
+      - Actively participated in the development and revision of designs and documents across various sectors including transportation, aviation, energy, and gas. Worked with clients such as IDOT, CTA, CDA, ComEd.
+      - Evaluated submittals, schedules, and design/construction standards ensuring that all projects met the required standards and specifications.
+      - Regularly engaged in meetings with contractors and clients, fostering effective communication and ensuring all parties were aligned on project objectives and deliverables.
+
+  - company: Universidad San Francisco de Quito
+    dates: January 2018 - May 2019
+    description: |
+      **Teaching Assistant**
+      <br />
+      - Recipient of the undergraduate Teaching Assistantship, Universidad San Francisco de Quito (2018).
+      - Ranked as Excellent Teacher.
+      - Courses Taught: 
+        - Topography 
+        - Geometrical Design of Roads
