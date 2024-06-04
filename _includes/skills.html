@@ -1,14 +1,26 @@
 <div class="container skills-container">
-  <h3>{{ site.skills_title | default: "Information Technology Skills" }}</h3>
-
+  <h3>{{ site.skills_title | default: "Skills" }}</h3>
+  <p>
+    {{ site.data.skills.description }}
+  </p>
+  <ul style="list-style: none; padding-left: 0;">
+    {% for language in site.data.skills.languages %}
+      <li>
+        {% if language.icon_type == "svg" %}
+          <img src="{{ language.icon_url }}" alt="{{ language.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+        {% elif language.icon_type == "devicon" %}
+          <i class="{{ language.devicon_class }}" style="font-size: 20px; margin-right: 10px;"></i>
+        {% endif %}
+        <b>{{ language.name }}</b>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <p>
+    {{ site.data.skills.description2 }}
+  </p>
+  
   <div class="row clearfix skills">
-    <!-- Description -->
-    <div class="col-xs-12 col-sm-12 col-md-12 col-print-12">
-      {{ site.data.skills.description | strip | markdownify }}
-      <br>
-    </div>
-
-    
     <!-- Data Science and Analysis -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
       <h4>Data Science and Analysis</h4>
@@ -21,7 +33,6 @@
       </ul>
     </div>
     <br>
-    
     
     <!-- Civil Engineering and Construction Management -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">

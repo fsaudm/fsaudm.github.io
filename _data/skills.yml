@@ -1,11 +1,33 @@
-description: "I am proficient with some essential and popular tools for modern problem-solving and innovation in the fields of: civil engineering and construction management, and data science and analysis, and statistics. Here are the software and technologies I have worked/work with:"
+description: "I have listed the tools that I use for data science and analysis (and have used for engineering). I am always looking to learn more about these (and new) tools to expand my skills. I have experience with the following programming languages:"
+languages:
+  - name: Python
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+  - name: R
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-plain.svg"
+  - name: SQL
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+  - name: Julia
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg"
+  - name: Matlab
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"
+  - name: C++
+    icon_type: "devicon"
+    devicon_class: "devicon-cplusplus-plain"
 
+
+
+
+description2: "I am also proficient with essential and popular tools for modern problem-solving and innovation in Data Science, Analytics, Statistics. These technologies are:"
 
 data_science_and_analysis:
-  - Python: Numpy, Pandas, Matplotlib, Seaborn, statsmodels, Scikit-learn, PyTorch, TensorFLow, Streamlit, Plotly
+  - Python: Numpy, Pandas, Matplotlib, Seaborn, statsmodels, Scikit-learn, PyTorch, TensorFlow, Streamlit, Plotly
   - R: Tidyverse, Shiny, data.table, plotly, caret, xgboost
-  - Data Visualization and BI: PowerB, Tableau. 
-
+  - Data Visualization and BI: Power BI, Tableau
 
 civil_engineering_and_construction_management:
   - Autodesk AutoCAD

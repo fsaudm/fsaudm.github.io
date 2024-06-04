@@ -8,7 +8,7 @@
       <li>
         {% if language.icon_type == "svg" %}
           <img src="{{ language.icon_url }}" alt="{{ language.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-        {% else %}
+        {% elif language.icon_type == "devicon" %}
           <i class="{{ language.devicon_class }}" style="font-size: 20px; margin-right: 10px;"></i>
         {% endif %}
         <b>{{ language.name }}</b>

@@ -1,4 +1,4 @@
-description: "I have listed the tools that I use for data science and analysis (and have used for engineering). I am always looking to learn more about these (and new) tools to expand my skills. I have experience with:"
+description: "I have listed the tools that I use for data science and analysis (and have used for engineering). I am always looking to learn more about these (and new) tools to expand my skills. I have experience with the following programming languages:"
 languages:
   - name: Python
     icon_type: "svg"
@@ -8,7 +8,7 @@ languages:
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-plain.svg"
   - name: SQL
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
   - name: Julia
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg"
@@ -16,6 +16,5 @@ languages:
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"
   - name: C++
+    icon_type: "devicon"
     devicon_class: "devicon-cplusplus-plain"
-
-    
