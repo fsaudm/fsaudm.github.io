@@ -1,20 +1,18 @@
-certifications:
-  - title: 3th Place & Best Presentation - ASHBY PRIZE IN COMPUTATIONAL SCIENCE HACKATHON
-  issuer:  [Center for Artificial Intelligence Innovation](https://ai.ncsa.illinois.edu/) at the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/)
-    date: May 2024
-    description: |
-      Awarded 3rd (out of 50 participants) place in the ASHBY PRIZE IN COMPUTATIONAL SCIENCE HACKATHON, a competition focused on using LLMs as a front-end to computational workflows. Awarded best presentation recognition for real-time data demo of product! More on this [here](https://ai.ncsa.illinois.edu/news-events/2024/05/2024-hackathon-winners-announced/).
+#certifications
+- title: 3rd Place & Best Presentation, ASHBY PRIZE IN COMPUTATIONAL SCIENCE HACKATHON
+  issuer: [Center for Artificial Intelligence Innovation](https://ai.ncsa.illinois.edu/) at the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/)
+  date: May 2024
+  description: |
+    Awarded 3rd place (out of 50 participants) in the ASHBY PRIZE IN COMPUTATIONAL SCIENCE HACKATHON, a competition focused on using LLMs as a front-end to computational workflows. Awarded best presentation recognition for real-time data demo of product! More on this [here](https://ai.ncsa.illinois.edu/news-events/2024/05/2024-hackathon-winners-announced/).
 
-  - title: 4th Place - Illinois Statistics Datathon 2024
-    issuer: Dept. of Statistics, University of Illinois at Urbana-Champaign, with Synchrony Financial
-    date: April 2024
-    description: |
-      Awarded 4th place (out of 345 participants) in the Illinois Statistics Datathon 2024, a 48-hour data analysis competition. You can view this [here](https://stat.illinois.edu/datathon), and read about our experience on this [post](https://www.linkedin.com/feed/update/urn:li:activity:7180625594085253120/).
+- title: 4th Place, Illinois Statistics Datathon 2024
+  issuer: Dept. of Statistics, University of Illinois at Urbana-Champaign, with Synchrony Financial
+  date: April 2024
+  description: |
+    Awarded 4th place (out of 345 participants) in the Illinois Statistics Datathon 2024, a 48-hour data analysis competition. You can view this [here](https://stat.illinois.edu/datathon), and read about our experience on this [post](https://www.linkedin.com/feed/update/urn:li:activity:7180625594085253120/).
 
-  - title: Data Parallelism: How to Train Deep Learning Models on Multiple GPUs
-    issuer: NVIDIA
-    date: March 2024
-    description: |
-      Certifies competence in the completion of Workshop/Data Parallelism: How to Train Deep Learning Models on Multiple GPUs. You can view this [here](https://learn.nvidia.com/certificates?id=e01935a5797049a6a71f3188d7a3e95f).
-
-    
+- title: Data Parallelism: How to Train Deep Learning Models on Multiple GPUs
+  issuer: NVIDIA
+  date: March 2024
+  description: |
+    Certifies competence in the completion of Workshop/Data Parallelism: How to Train Deep Learning Models on Multiple GPUs. You can view this [here](https://learn.nvidia.com/certificates?id=e01935a5797049a6a71f3188d7a3e95f).
