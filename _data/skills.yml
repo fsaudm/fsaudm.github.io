@@ -54,7 +54,7 @@ data_science_and_analysis:
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg"
   - name: Langchain
     icon_type: "svg"
-    icon_url: "" # Add SVG link here
+    icon_url: "icons/langchain-seeklogo.svg"
   - name: Tidyverse
     icon_type: "png"
     icon_url: "https://github.com/tidyverse/tidyverse.org/blob/master/static/images/hex-tidyverse.png"
@@ -64,9 +64,6 @@ data_science_and_analysis:
   - name: data.table
     icon_type: "svg"
     icon_url: "" # Add SVG link here
-  - name: plotly
-    icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg"
   - name: caret
     icon_type: "svg"
     icon_url: "" # Add SVG link here
