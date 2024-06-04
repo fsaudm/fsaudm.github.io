@@ -11,7 +11,7 @@
         {%- if education.quote -%}
           <p class="quote">{{ education.quote }}</p>
         {%- endif -%}
-        {{ education.description | strip | markdownify }}
+        {{ education.description | markdownify }}
       </div>
     </div>
   {% endfor %}

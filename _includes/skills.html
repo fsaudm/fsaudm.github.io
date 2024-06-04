@@ -22,13 +22,13 @@
   </p>
   
   <div class="row clearfix skills">
-    <!-- Data Science and Analysis -->
+    <!-- Data Science and Analysis in Python -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-      <h4>Data Science and Analysis</h4>
+      <h4>Data Science and Analysis in Python</h4>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       <ul>
-        {% for skill in site.data.skills.data_science_and_analysis %}
+        {% for skill in site.data.skills.data_science_and_analysis_python %}
           <li>
             {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
               <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
@@ -39,6 +39,42 @@
       </ul>
     </div>
     <br>
+    
+    <!-- Data Science and Analysis in R -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Data Science and Analysis in R</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.data_science_and_analysis_r %}
+          <li>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
+
+    <!-- Data Visualization and BI -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Data Visualization and BI</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.data_visualization_and_bi %}
+          <li>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
     
     <!-- Civil Engineering and Construction Management -->
     <!-- Commented out as per your request
