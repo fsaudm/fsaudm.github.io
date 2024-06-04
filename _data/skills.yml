@@ -19,21 +19,18 @@ languages:
     icon_type: "devicon"
     devicon_class: "devicon-cplusplus-plain"
 
-
-
-
 description2: "I am also proficient with essential and popular tools for modern problem-solving and innovation in Data Manipulation, Analytics, Statistics, Machine Learning and Deep Learning. These technologies are:"
 
 data_science_and_analysis:
   - name: Numpy
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
   - name: Pandas
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
   - name: Matplotlib
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
   - name: Seaborn
     icon_type: "svg"
     icon_url: "" # Add SVG link here
@@ -42,23 +39,22 @@ data_science_and_analysis:
     icon_url: "" # Add SVG link here
   - name: Scikit-learn
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
   - name: PyTorch
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
   - name: TensorFlow
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
   - name: Streamlit
     icon_type: "svg"
-    icon_url: ""https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original-wordmark.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original-wordmark.svg"
   - name: Plotly
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg"
   - name: Langchain
     icon_type: "svg"
     icon_url: "" # Add SVG link here
-
   - name: Tidyverse
     icon_type: "png"
     icon_url: "https://github.com/tidyverse/tidyverse.org/blob/master/static/images/hex-tidyverse.png"
@@ -70,7 +66,7 @@ data_science_and_analysis:
     icon_url: "" # Add SVG link here
   - name: plotly
     icon_type: "svg"
-    icon_url: "" # Add SVG link here
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg"
   - name: caret
     icon_type: "svg"
     icon_url: "" # Add SVG link here
@@ -80,15 +76,12 @@ data_science_and_analysis:
   - name: xgboost
     icon_type: "svg"
     icon_url: "" # Add SVG link here
-
   - name: Power BI
     icon_type: "svg"
     icon_url: "" # Add SVG link here
   - name: Tableau
     icon_type: "svg"
     icon_url: "" # Add SVG link here
-
-
 
 # civil_engineering_and_construction_management:
 #   - Autodesk AutoCAD
