@@ -3,7 +3,15 @@
   {% for certification in site.data.certifications %}
     <div class="row clearfix certification">
       <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-        <h4>{{ certification.title }}</h4>
+        <h4 class="name">
+          {%- if certification.link -%}
+            {% include a.html href=certification.link %}
+          {%- endif -%}
+          {{ certification.title }}
+          {%- if certification.link -%}
+            </a>
+          {%- endif -%}
+        </h4>
         <p><b>{{ certification.issuer }}</b></p>
         <p>{{ certification.date }}</p>
       </div>
