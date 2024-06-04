@@ -1,52 +1,51 @@
 # Education 
-education:
-  - name: University of Illinois at Urbana-Champaign
-    dates: 2023 - 2024 (expected)
-    qualification: Master of Science in Statistics
-    description: |
-      Concentration: Data Science
-      <br />GPA: 4.0/4.0
-      <br />Selected courses: 
-      * Applied Machine Learning
-      * Statistical Learning
-      * Deep Learning
-      * Mathematical Statistics
-      * Statistical Modeling
-      * Advanced Data Analysis
-      * Time Series Analysis
-      * Big Data Analytics
-      * Machine Learning on the Cloud.
+- name: University of Illinois at Urbana-Champaign
+  dates: 2023 - 2024 (expected)
+  qualification: Master of Science in Statistics
+  description: |
+    Concentration: Data Science
+    <br />GPA: 4.0/4.0
+    <br />Selected courses: 
+    * Applied Machine Learning
+    * Statistical Learning
+    * Deep Learning
+    * Mathematical Statistics
+    * Statistical Modeling
+    * Advanced Data Analysis
+    * Time Series Analysis
+    * Big Data Analytics
+    * Machine Learning on the Cloud.
 
-  - name: University of Illinois at Urbana-Champaign
-    dates: 2021 - 2023
-    qualification: Master of Science in Data Science + Civil and Environmental Engineering
-    description: |
-      Concentration: Construction Engineering and Management
-      <br />GPA: 3.95/4.0
-      <br />Selected courses: 
-      * Data Science for CEE
-      * Machine Learning for CEE
-      * Construction Optimization
-      * Construction Data Modeling
-      * Construction Engineering
-      * Construction Planning
-      * Cost Analysis
+- name: University of Illinois at Urbana-Champaign
+  dates: 2021 - 2023
+  qualification: Master of Science in Data Science + Civil and Environmental Engineering
+  description: |
+    Concentration: Construction Engineering and Management
+    <br />GPA: 3.95/4.0
+    <br />Selected courses: 
+    * Data Science for CEE
+    * Machine Learning for CEE
+    * Construction Optimization
+    * Construction Data Modeling
+    * Construction Engineering
+    * Construction Planning
+    * Cost Analysis
 
-  - name: Universidad San Francisco de Quito
-    dates: 2017 - 2021
-    qualification: Bachelor of Science in Civil Engineering
-    description: |
-      Concentration: Civil Engineering
-      <br />GPA: 3.5/4.0
-      <br />Thesis: “Productivity in Construction: Measurement Methodologies in Ecuador”. Score: 99/100
-      <br />Selected courses: 
-      * Numerical Analysis
-      * Probability & Statistics
-      * Earthquake Engineering
-      * Structural Analysis
-      * Geotechnical Engineering
-      * Transportation Engineering
-      <br />The complete curriculum can be found [here](https://wsexternal.usfq.edu.ec/MallaCurricular-USFQ/DetalleMallaCurricular/DetalleMalla?codigoCarrera=1ICV&out=1).
+- name: Universidad San Francisco de Quito
+  dates: 2017 - 2021
+  qualification: Bachelor of Science in Civil Engineering
+  description: |
+    Concentration: Civil Engineering
+    <br />GPA: 3.5/4.0
+    <br />Thesis: “Productivity in Construction: Measurement Methodologies in Ecuador”. Score: 99/100
+    <br />Selected courses: 
+    * Numerical Analysis
+    * Probability & Statistics
+    * Earthquake Engineering
+    * Structural Analysis
+    * Geotechnical Engineering
+    * Transportation Engineering
+    <br />The complete curriculum can be found [here](https://wsexternal.usfq.edu.ec/MallaCurricular-USFQ/DetalleMallaCurricular/DetalleMalla?codigoCarrera=1ICV&out=1).
 
 
 
