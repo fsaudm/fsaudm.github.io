@@ -63,7 +63,7 @@ data_science_and_analysis_r:
     icon_url: "icons/tidyverse.svg"
   - name: Shiny
     icon_type: "svg"
-    icon_url: "/Users/Farid/Desktop/fsaudm.github.io/icons/Shiny_hex_logo.svg"
+    icon_url: "icons/Shiny.png"
   - name: caret
     icon_type: "svg"
     icon_url: "icons/caret.jpeg"

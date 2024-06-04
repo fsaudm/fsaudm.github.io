@@ -1,0 +1,15 @@
+<div class="container certifications-container">
+  <h3>{{ site.certifications_title | default: "Certificates & Awards" }}</h3>
+  {% for certification in site.data.certifications %}
+    <div class="row clearfix certification">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+        <h4>{{ certification.title }}</h4>
+        <p><b>{{ certification.issuer }}</b></p>
+        <p>{{ certification.date }}</p>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+        {{ certification.description | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
