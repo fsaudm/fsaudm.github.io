@@ -5,14 +5,15 @@
   </p>
   <ul style="list-style: none; padding-left: 0;">
     {% for language in site.data.programming.languages %}
-      <li>
-        {% if language.icon_type == "svg" %}
-          <img src="{{ language.icon_url }}" alt="{{ language.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-        {% elif language.icon_type == "devicon" %}
-          <i class="{{ language.devicon_class }}" style="font-size: 20px; margin-right: 10px;"></i>
-        {% endif %}
-        <b>{{ language.name }}</b>
-      </li>
+    <li>
+      {% if language.icon_type == "svg" %}
+        <img src="{{ language.icon_url }}" alt="{{ language.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+      {% endif %}
+      {% if language.icon_type == "devicon" %}
+        <i class="{{ language.devicon_class }}" style="font-size: 20px; margin-right: 10px;"></i>
+      {% endif %}
+      <b>{{ language.name }}</b>
+    </li>
     {% endfor %}
   </ul>
 </div>
