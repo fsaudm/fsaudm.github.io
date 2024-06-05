@@ -40,6 +40,41 @@
     </div>
     <br>
     
+    <!-- Data Science and Analysis in R -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Data Science and Analysis in R</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.data_science_and_analysis_r %}
+          <li>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
+
+    <!-- Cloud Computing -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Cloud Computing</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.cloud_computing %}
+          <li>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
 
     <!-- Data Visualization and BI -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
@@ -58,8 +93,6 @@
       </ul>
     </div>
     <br>
-
-
 
     <!-- Containerization and Orchestration -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
