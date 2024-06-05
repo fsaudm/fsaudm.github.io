@@ -83,6 +83,25 @@ data_visualization_and_bi:
     icon_type: "svg"
     icon_url: "icons/tableau-software.svg"
 
+
+cloud_computing:
+  - name: AWS: S3, SageMaker
+    icon_type: "svg"
+    icon_url: "icons/aws.png"
+  - name: Azure, Machine Learning Studio
+    icon_type: "svg"
+    icon_url: "icons/Azure.png"
+
+
+containerization_and_orchestration:
+  - name: Docker
+    icon_type: "svg"
+    icon_url: "icons/docker-mark-blue.svg"
+  - name: Kubernetes
+    icon_type: "svg"
+    icon_url: "icons/Kubernetes.png"
+
+
 # civil_engineering_and_construction_management:
 #   - Autodesk AutoCAD
 #   - Civil 3D
