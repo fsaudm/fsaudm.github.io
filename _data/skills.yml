@@ -97,7 +97,7 @@ containerization_and_orchestration:
   - name: Docker
     icon_type: "svg"
     icon_url: "icons/docker-mark-blue.svg"
-  - name: Kubernetes, at a basic level :)
+  - name: Kubernetes, at a basic level...
     icon_type: "svg"
     icon_url: "icons/Kubernetes.png"
 
