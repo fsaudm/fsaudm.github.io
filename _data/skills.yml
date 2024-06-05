@@ -85,7 +85,7 @@ data_visualization_and_bi:
 
 
 cloud_computing:
-  - name: AWS: S3, SageMaker
+  - name: AWS, S3, SageMaker
     icon_type: "svg"
     icon_url: "icons/aws.png"
   - name: Azure, Machine Learning Studio
