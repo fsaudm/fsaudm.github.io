@@ -95,10 +95,13 @@ containerization_and_CI_CD:
     icon_type: "svg"
     icon_url: "icons/GitHub Actions.svg"    
 
-# data_visualization_and_bi:
-#   - name: Tableau
-#     icon_type: "svg"
-#     icon_url: "icons/tableau-software.svg"
+data_visualization_and_bi:
+  - name: Tableau
+    icon_type: "svg"
+    icon_url: "icons/tableau-software.svg"
+  - name: Power BI
+    icon_type: "svg"
+    icon_url: "icons/Power-BI.svg"
 
 # civil_engineering_and_construction_management:
 #   - Autodesk AutoCAD
