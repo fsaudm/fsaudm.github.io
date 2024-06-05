@@ -75,6 +75,21 @@
 
   {%- include footer.html -%}
 
+
+  <!-- Smooth Scrolling JS Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('#floating-index a');
+      for (const link of links) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
