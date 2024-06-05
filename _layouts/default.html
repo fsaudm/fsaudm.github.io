@@ -17,6 +17,11 @@
         {%- include education.html -%}
       {%- endif -%}
 
+      <!-- Skills -->      
+      {%- if site.data.skills.size > 0 -%}
+        {%- include skills.html -%}
+      {%- endif -%} 
+      
       <!-- Certifications -->
       {%- if site.data.certifications.size > 0 -%}
         {%- include certifications.html -%}
@@ -32,10 +37,7 @@
         {%- include projects.html -%}
       {%- endif -%}
 
-      <!-- Skills -->      
-      {%- if site.data.skills.size > 0 -%}
-        {%- include skills.html -%}
-      {%- endif -%}
+
 
       <!-- Languages -->
       {%- if site.data.languages.size > 0 -%}

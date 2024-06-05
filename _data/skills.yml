@@ -1,4 +1,4 @@
-description: "I have listed the tools that I use for data science and analysis (and have used for engineering). I am always looking to learn more about these (and new) tools to expand my skills. I have experience with the following programming languages:"
+description: "The following are the programming languagues that I use for data science and analysis (and have used for engineering). I am always looking to learn more about these (and new) tools to expand my skills. I have experience with:"
 languages:
   - name: Python
     icon_type: "svg"
@@ -97,7 +97,7 @@ containerization_and_orchestration:
   - name: Docker
     icon_type: "svg"
     icon_url: "icons/docker-mark-blue.svg"
-  - name: Kubernetes
+  - name: Kubernetes, at a basic level :)
     icon_type: "svg"
     icon_url: "icons/Kubernetes.png"
 

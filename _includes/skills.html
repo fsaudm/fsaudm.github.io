@@ -1,58 +1,57 @@
 <div class="container skills-container">
-  <h3>{{ site.skills_title | default: "Information Technology Skills" }}</h3>
+  <h3>{{ site.skills_title | default: "Skills" }}</h3>
+  <p>
+    {{ site.data.skills.description }}
+  </p>
+  <ul style="list-style: none; padding-left: 0;">
+    {% for language in site.data.skills.languages %}
+      <li>
+        {% if language.icon_type == "svg" %}
+          <img src="{{ language.icon_url }}" alt="{{ language.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+        {% endif %}
+        {% if language.icon_type == "devicon" %}
+          <i class="{{ language.devicon_class }}" style="font-size: 20px; margin-right: 10px;"></i>
+        {% endif %}
+        <b>{{ language.name }}</b>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <p>
+    {{ site.data.skills.description2 }}
+  </p>
+  
   <div class="row clearfix skills">
-    <!-- Description -->
-    <div class="col-xs-12 col-sm-12 col-md-12 col-print-12">
-      {{ site.data.skills.description | strip | markdownify }}
-      <br>
-    </div>
-
-    <!-- Programming Languages -->
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-      <h4>Programming Languages</h4>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-      <ul>
-        {% for language in site.data.skills.languages %}
-          <li>
-            {% if language.icon_type == "svg" %}
-              <img src="{{ language.icon_url }}" alt="{{ language.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-            {% else %}
-              <i class="{{ language.devicon_class }}" style="font-size: 20px; margin-right: 10px;"></i>
-            {% endif %}
-            <b>{{ language.name }}</b>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <br>
-
     <!-- Data Science and Analysis in Python -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
       <h4>Data Science and Analysis in Python</h4>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       <ul>
-        {% for tool in site.data.skills.data_science_and_analysis_python %}
+        {% for skill in site.data.skills.data_science_and_analysis_python %}
           <li>
-            <img src="{{ tool.icon_url }}" alt="{{ tool.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-            <b>{{ tool.name }}</b>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
           </li>
         {% endfor %}
       </ul>
     </div>
     <br>
-
+    
     <!-- Data Science and Analysis in R -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
       <h4>Data Science and Analysis in R</h4>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       <ul>
-        {% for tool in site.data.skills.data_science_and_analysis_r %}
+        {% for skill in site.data.skills.data_science_and_analysis_r %}
           <li>
-            <img src="{{ tool.icon_url }}" alt="{{ tool.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-            <b>{{ tool.name }}</b>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
           </li>
         {% endfor %}
       </ul>
@@ -65,15 +64,16 @@
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       <ul>
-        {% for tool in site.data.skills.data_visualization_and_bi %}
+        {% for skill in site.data.skills.data_visualization_and_bi %}
           <li>
-            <img src="{{ tool.icon_url }}" alt="{{ tool.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-            <b>{{ tool.name }}</b>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
           </li>
         {% endfor %}
       </ul>
     </div>
-    <br>
 
     <!-- Cloud Computing -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
@@ -81,10 +81,12 @@
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       <ul>
-        {% for tool in site.data.skills.cloud_computing %}
+        {% for skill in site.data.skills.cloud_computing %}
           <li>
-            <img src="{{ tool.icon_url }}" alt="{{ tool.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-            <b>{{ tool.name }}</b>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
           </li>
         {% endfor %}
       </ul>
@@ -97,28 +99,32 @@
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       <ul>
-        {% for tool in site.data.skills.containerization_and_orchestration %}
+        {% for skill in site.data.skills.containerization_and_orchestration %}
           <li>
-            <img src="{{ tool.icon_url }}" alt="{{ tool.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-            <b>{{ tool.name }}</b>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
           </li>
         {% endfor %}
       </ul>
     </div>
     <br>
+
+    
+    <!-- Civil Engineering and Construction Management -->
+    <!-- Commented out as per your request
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Civil Engineering and Construction Management</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.civil_engineering_and_construction_management %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    -->
+    
   </div>
 </div>
-
-<!-- Civil Engineering and Construction Management -->
-<!-- Commented out as per your request
-<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-  <h4>Civil Engineering and Construction Management</h4>
-</div>
-<div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-  <ul>
-    {% for skill in site.data.skills.civil_engineering_and_construction_management %}
-      <li>{{ skill }}</li>
-    {% endfor %}
-  </ul>
-</div>
--->
