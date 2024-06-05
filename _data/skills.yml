@@ -75,15 +75,6 @@ data_science_and_analysis_r:
     icon_url: "icons/xgboost.png"
 
 
-data_visualization_and_bi:
-  - name: Power BI
-    icon_type: "svg"
-    icon_url: "icons/Power-BI.svg"
-  # - name: Tableau
-  #   icon_type: "svg"
-  #   icon_url: "icons/tableau-software.svg"
-
-
 cloud_computing:
   - name: AWS, S3, SageMaker
     icon_type: "svg"
@@ -100,6 +91,16 @@ containerization_and_orchestration:
   - name: Kubernetes, at a basic level...
     icon_type: "svg"
     icon_url: "icons/Kubernetes.png"
+
+
+data_visualization_and_bi:
+  - name: Power BI
+    icon_type: "svg"
+    icon_url: "icons/Power-BI.svg"
+  - name: Tableau
+    icon_type: "svg"
+    icon_url: "icons/tableau-software.svg"
+
 
 
 # civil_engineering_and_construction_management:

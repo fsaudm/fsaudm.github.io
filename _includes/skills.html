@@ -57,25 +57,7 @@
       </ul>
     </div>
     <br>
-
-    <!-- Data Visualization and BI -->
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-      <h4>Data Visualization and BI</h4>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-      <ul>
-        {% for skill in site.data.skills.data_visualization_and_bi %}
-          <li>
-            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
-              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
-            {% endif %}
-            <b>{{ skill.name }}</b>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <br>
-
+    
     <!-- Cloud Computing -->
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
       <h4>Cloud Computing</h4>
@@ -111,6 +93,25 @@
       </ul>
     </div>
     <br>
+
+    <!-- Data Visualization and BI -->
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+      <h4>Data Visualization and BI</h4>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <ul>
+        {% for skill in site.data.skills.data_visualization_and_bi %}
+          <li>
+            {% if skill.icon_type == "svg" or skill.icon_type == "png" %}
+              <img src="{{ skill.icon_url }}" alt="{{ skill.name }} icon" style="width: 20px; height: 20px; margin-right: 10px;">
+            {% endif %}
+            <b>{{ skill.name }}</b>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <br>
+
   </div>
 </div>
 
