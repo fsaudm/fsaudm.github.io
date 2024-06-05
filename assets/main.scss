@@ -2,4 +2,41 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import 'modern-resume-theme'
+@import 'modern-resume-theme';
+
+/* Floating Index Styles */
+#floating-index {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+#floating-index ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#floating-index ul li {
+  margin: 5px 0;
+}
+
+#floating-index ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+#floating-index ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure columns are the same size for all screen sizes */
+.col-xs-12 {
+  width: 100%;
+}
