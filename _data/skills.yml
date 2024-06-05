@@ -84,21 +84,21 @@ cloud_computing:
     icon_url: "icons/Azure.png"
 
 
-containerization_and_orchestration:
+containerization_and_CI_CD:
   - name: Docker
     icon_type: "svg"
     icon_url: "icons/docker-mark-blue.svg"
   - name: Kubernetes, at a basic level...
     icon_type: "svg"
     icon_url: "icons/Kubernetes.png"
-  - name: Power BI
+  - name: GitHub Actions
     icon_type: "svg"
-    icon_url: "icons/Power-BI.svg"
-  - name: Tableau
-    icon_type: "svg"
-    icon_url: "icons/tableau-software.svg"
+    icon_url: "icons/GitHub Actions.svg"    
 
 # data_visualization_and_bi:
+#   - name: Tableau
+#     icon_type: "svg"
+#     icon_url: "icons/tableau-software.svg"
 
 # civil_engineering_and_construction_management:
 #   - Autodesk AutoCAD
