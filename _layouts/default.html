@@ -9,7 +9,7 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-
+      
       <!-- Floating Index -->
       <nav id="floating-index">
         <ul>
@@ -28,42 +28,47 @@
         {%- include about.html -%}
       </div>
       
-      <!-- Education -->
-      {%- if site.data.education.size > 0 -%}
-        {%- include education.html -%}
-      {%- endif -%}
+      <div id="education">
+        {%- if site.data.education.size > 0 -%}
+          {%- include education.html -%}
+        {%- endif -%}
+      </div>
 
-      <!-- Skills -->      
-      {%- if site.data.skills.size > 0 -%}
-        {%- include skills.html -%}
-      {%- endif -%} 
-      
-      <!-- Certifications -->
-      {%- if site.data.certifications.size > 0 -%}
-        {%- include certifications.html -%}
-      {%- endif -%}
+      <div id="skills">
+        {%- if site.data.skills.size > 0 -%}
+          {%- include skills.html -%}
+        {%- endif -%}
+      </div>
+
+      <div id="certifications">
+        {%- if site.data.certifications.size > 0 -%}
+          {%- include certifications.html -%}
+        {%- endif -%}
+      </div>
     
-      <!-- Experience -->
-      {%- if site.data.experience.size > 0 -%}
-        {%- include experience.html -%}
-      {%- endif -%}
+      <div id="experience">
+        {%- if site.data.experience.size > 0 -%}
+          {%- include experience.html -%}
+        {%- endif -%}
+      </div>
 
-      <!-- Projects -->
-      {%- if site.data.projects.size > 0 -%}
-        {%- include projects.html -%}
-      {%- endif -%}
+      <div id="projects">
+        {%- if site.data.projects.size > 0 -%}
+          {%- include projects.html -%}
+        {%- endif -%}
+      </div>
 
+      <div id="languages">
+        {%- if site.data.languages.size > 0 -%}
+          {%- include languages.html -%}
+        {%- endif -%}
+      </div>
 
-
-      <!-- Languages -->
-      {%- if site.data.languages.size > 0 -%}
-        {%- include languages.html -%}
-      {%- endif -%}
-
-
-      {%- if site.more_content -%}
-        {%- include more.html -%}
-      {%- endif -%}
+      <div id="more-content">
+        {%- if site.more_content -%}
+          {%- include more.html -%}
+        {%- endif -%}
+      </div>
 
     </div>
   </main>
