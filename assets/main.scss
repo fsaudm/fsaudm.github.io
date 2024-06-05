@@ -7,20 +7,19 @@
 /* Floating Index Styles */
 #floating-index {
   position: fixed;
-  top: 50px;
-  right: 20px;
-  background: #f9f9f9;
+  top: 20%;
+  left: 10px;
+  background-color: #fff;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #floating-index ul {
-  list-style: none;
-  padding: 0;
+  list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 #floating-index ul li {
@@ -29,14 +28,19 @@
 
 #floating-index ul li a {
   text-decoration: none;
-  color: #007bff;
+  color: #000;
 }
 
-#floating-index ul li a:hover {
-  text-decoration: underline;
+#toggle-index {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
-/* Ensure columns are the same size for all screen sizes */
-.col-xs-12 {
-  width: 100%;
+#toggle-index:focus {
+  outline: none;
 }
+

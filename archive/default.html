@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+      {%- include about.html -%}
+      
+      <!-- Education -->
+      {%- if site.data.education.size > 0 -%}
+        {%- include education.html -%}
+      {%- endif -%}
+
+      <!-- Skills -->      
+      {%- if site.data.skills.size > 0 -%}
+        {%- include skills.html -%}
+      {%- endif -%} 
+      
+      <!-- Certifications -->
+      {%- if site.data.certifications.size > 0 -%}
+        {%- include certifications.html -%}
+      {%- endif -%}
+    
+      <!-- Experience -->
+      {%- if site.data.experience.size > 0 -%}
+        {%- include experience.html -%}
+      {%- endif -%}
+
+      <!-- Projects -->
+      {%- if site.data.projects.size > 0 -%}
+        {%- include projects.html -%}
+      {%- endif -%}
+
+
+
+      <!-- Languages -->
+      {%- if site.data.languages.size > 0 -%}
+        {%- include languages.html -%}
+      {%- endif -%}
+
+
+      {%- if site.more_content -%}
+        {%- include more.html -%}
+      {%- endif -%}
+
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
+
+</html>

@@ -12,11 +12,12 @@
       
       <!-- Floating Index -->
       <nav id="floating-index">
-        <ul>
+        <button id="toggle-index">☰</button>
+        <ul id="index-list">
           <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#certifications">Awards</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#languages">Languages</a></li>
@@ -75,8 +76,7 @@
 
   {%- include footer.html -%}
 
-
-  <!-- Smooth Scrolling JS Script -->
+  <!-- Smooth Scrolling and Toggle JS Script -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const links = document.querySelectorAll('#floating-index a');
@@ -88,6 +88,12 @@
           });
         });
       }
+
+      const toggleButton = document.getElementById('toggle-index');
+      const indexList = document.getElementById('index-list');
+      toggleButton.addEventListener('click', function() {
+        indexList.style.display = indexList.style.display === 'none' ? 'block' : 'none';
+      });
     });
   </script>
 </body>
