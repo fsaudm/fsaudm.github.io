@@ -14,11 +14,11 @@
       <nav id="floating-index">
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#certifications">Awards</a></li>
-          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Awards</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#languages">Languages</a></li>
           <li><a href="#more-content">More</a></li>
         </ul>
@@ -28,12 +28,12 @@
         {%- include about.html -%}
       </div>
       
-      <div id="education">
-        {%- if site.data.education.size > 0 -%}
-          {%- include education.html -%}
+      <div id="projects">
+        {%- if site.data.projects.size > 0 -%}
+          {%- include projects.html -%}
         {%- endif -%}
       </div>
-
+      
       <div id="skills">
         {%- if site.data.skills.size > 0 -%}
           {%- include skills.html -%}
@@ -45,19 +45,19 @@
           {%- include certifications.html -%}
         {%- endif -%}
       </div>
-    
+
       <div id="experience">
         {%- if site.data.experience.size > 0 -%}
           {%- include experience.html -%}
         {%- endif -%}
       </div>
 
-      <div id="projects">
-        {%- if site.data.projects.size > 0 -%}
-          {%- include projects.html -%}
+      <div id="education">
+        {%- if site.data.education.size > 0 -%}
+          {%- include education.html -%}
         {%- endif -%}
       </div>
-
+    
       <div id="languages">
         {%- if site.data.languages.size > 0 -%}
           {%- include languages.html -%}

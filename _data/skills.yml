@@ -8,7 +8,7 @@ languages:
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-plain.svg"
   - name: SQL
     icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg"
   - name: Julia
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg"
@@ -76,12 +76,12 @@ data_science_and_analysis_r:
 
 
 cloud_computing:
-  - name: AWS, S3, SageMaker
+  - name: AWS, SageMaker, S3
     icon_type: "svg"
-    icon_url: "icons/aws.png"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
   - name: Azure, Machine Learning Studio
     icon_type: "svg"
-    icon_url: "icons/Azure.png"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
 
 
 containerization_and_CI_CD:
