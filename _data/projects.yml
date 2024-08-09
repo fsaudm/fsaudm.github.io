@@ -1,4 +1,16 @@
 # Project template
+
+- name: Object Detection using YOLOv10 and RT-DeTr in AWS
+  github: fsaudm/YOLOv10_RT-DeTr_in_AWS 
+  description: |
+    Implemented object detection in construction sites using YOLOv10 and RT-DeTr architectures with PyTorch and Ultralytics libraries. This project aimed to compare the performance of these two state-of-the-art architectures in terms of speed and accuracy, providing insights into their suitability for real-time object detection tasks, and the inherent tradeoff between accuracy and speed. The models were trained on an AWS SageMaker equipped with GPUs and evaluated on a subset of the *SODA: A large-scale open site object detection dataset for deep learning in construction*, by Rui Duan, Hui Deng, Mao Tian, Yichuan Deng, and Jiarui Lin. The original dataset can be found [here](https://www.sciencedirect.com/science/article/abs/pii/S0926580522003727). The results and analysis, as well as insightful visualizations of the label distribution and training process are available in the GitHub repository.
+
+- name: Neural Network using NumPy for MNIST
+  github: fsaudm/NeuralNet_in_NumPy  
+  description: |
+    This project showcases the implementation of a fully-connected neural network from scratch using only NumPy. The network is trained on the MNIST dataset, and categorizes digits into one of ten classes (0-9) with 94% accuracy. The network features a four-layer architecture, with a total of 164,013 parameters. All activation functions and helper functions, such as ReLU, Softmax, and Cross-entropy Loss are implemented from scratch. The forward and backward propagation processes are vectorized, and the weights and biases are updated using the gradient descent algorithm. This project is integrated with Weights & Biases for comprehensive experiment tracking. You can explore the full implementation and results on Github, and explore the training logs and hyperparameter optimization on Weights & Biases embedded in the repo.
+
+
 - name: GMM and HMM - An implementation from scratch in R
   #link: github.com/fsaudm
   github: fsaudm/statistical-learning/tree/main/Coding4
