@@ -1,10 +1,5 @@
 # Project template
 
-- name: Neural Network using NumPy for MNIST
-  github: fsaudm/NeuralNet_in_NumPy  
-  description: |
-    This project showcases the implementation of a fully-connected neural network from scratch using only NumPy. The network is trained on the MNIST dataset, and categorizes digits into one of ten classes (0-9) with 94% accuracy. The network features a four-layer architecture, with a total of 164,013 parameters. All activation and helper functions, such as ReLU, Softmax, and Cross-entropy Loss are implemented from scratch. The forward and backward propagation processes are vectorized, and the weights and biases are updated using the gradient descent algorithm. This project is integrated with Weights & Biases for comprehensive experiment tracking. You can explore the [full implementation and results on GitHub](https://github.com/fsaudm/NeuralNet_in_NumPy), and explore the training logs and hyperparameter optimization on Weights & Biases embedded in the repo.
-
 - name: Object Detection using YOLOv10 and RT-DeTr in AWS
   github: fsaudm/YOLOv10_RT-DeTr_in_AWS 
   description: |
@@ -42,3 +37,8 @@
   description: | # This will include new lines to allow paragraphs
     The original research by Professor Hadi Meidani, from the Uncertainty Quantification (UQ) research group introduced the application of the Kaczmarz algorithm for real-time, short-term traffic prediction. The proposed method stands out due to its computational efficiency, adaptability to changing traffic conditions, and its unique capability to swiftly incorporate newly streamed data. By leveraging polynomial approximations and exploring various estimation techniques, the paper achieved robust predictions, specifically for atypical traffic scenarios.
     Expanding upon this foundational work, I sought to critically assess and replicate the methodology, identifying potential areas of refinement. This exploration resulted in the implementation of different ways of ordering the "multivariate vector." The findings highlight the spatial ordering's superior prediction accuracy over the time-based order. This deeper analysis further optimized the real-time traffic prediction in extreme weather conditions using the proposed predictive analysis. You can find this project [here](https://uq.cee.illinois.edu/publication.html#).
+
+- name: Neural Network using NumPy for MNIST
+  github: fsaudm/NeuralNet_in_NumPy  
+  description: |
+    This project showcases the implementation of a fully-connected neural network from scratch using only NumPy. The network is trained on the MNIST dataset, and categorizes digits into one of ten classes (0-9) with 94% accuracy. The network features a four-layer architecture, with a total of 164,013 parameters. All activation and helper functions, such as ReLU, Softmax, and Cross-entropy Loss are implemented from scratch. The forward and backward propagation processes are vectorized, and the weights and biases are updated using the gradient descent algorithm. This project is integrated with Weights & Biases for comprehensive experiment tracking. You can dive into the [full implementation and results on GitHub](https://github.com/fsaudm/NeuralNet_in_NumPy), and explore the training logs and hyperparameter optimization on Weights & Biases embedded in the repo.
