@@ -46,16 +46,21 @@ data_science_and_analysis_python:
   - name: TensorFlow
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+  - name: HuggingFace's Transformers, Accelerate, BitsandBytes
+    icon_type: "svg"
+    icon_url: "https://cdn-lfs.huggingface.co/repos/96/a2/96a2c8468c1546e660ac2609e49404b8588fcf5a748761fa72c154b2836b4c83/942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27hf-logo.svg%3B+filename%3D%22hf-logo.svg%22%3B&response-content-type=image%2Fsvg%2Bxml&Expires=1723927843&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyMzkyNzg0M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy85Ni9hMi85NmEyYzg0NjhjMTU0NmU2NjBhYzI2MDllNDk0MDRiODU4OGZjZjVhNzQ4NzYxZmE3MmMxNTRiMjgzNmI0YzgzLzk0MmNhZDFjY2RhOTA1YWM1YTY1OWRmZDJkNzhiMzQ0ZmNjZmI4NGE4YTNhYzM3MjFlMDhmNDg4MjA1NjM4YTA%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=TeKwvcJ4wLdmpjcmqq2pnS3S3YwL4lh33R7WSe9IDiHL2Ss4wKSmvkO8ljfBGs4DJsphTye8hGD7Ji-vD58hFnaEjkKd1FJMx8MZg-4arLbLB4lP-j5iQKbaUlgxWuJvZ7I7hveYTPfrDTZJrBhdGkETI6h0BF6AzRpoO1rIdat8wdQ3AuZ6%7EGJEjjVGoXf7JJyXi6u5GSAbBU-yqVGUEyH8CKuuWIG2wUlY%7EPvEObeTYkRvM5F%7EYLxAHs4gD7-MVlsy3c8u%7EEfDFQ%7ECy6OxhOKdZtPOpN6GP0v00vrCe71zSXmlfO7SGIRvCFqdwJ35OPS0dAwkfNljvTDn%7E6Wrfw__&Key-Pair-Id=K3ESJI6DHPFC7"
+
+
+  - name: Langchain
+    icon_type: "svg"
+    icon_url: "icons/langchain-seeklogo.svg"
+
   - name: Streamlit
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original-wordmark.svg"
   - name: Plotly
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg"
-  - name: Langchain
-    icon_type: "svg"
-    icon_url: "icons/langchain-seeklogo.svg"
-
 
 data_science_and_analysis_r:
   - name: Tidyverse
