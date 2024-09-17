@@ -10,7 +10,7 @@
   date: "April 2024"
   link: "https://stat.illinois.edu/datathon"
   description: >
-    Awarded 4th place (out of 345 participants) in the Illinois Statistics Datathon 2024, a 48-hour data analysis competition. The chanllenge consisted in analyzing a real-world dataset related to the Interactive Voice Response (IVR) System of Synchrony with over 1 million observations! Such analysis required extensive data pre-processing, exploratory data analysis (EDA), and feature engineering to identify and build key features, and crafting actionable business insights through Statistical Modeling (specifically, Logistic Regression, for its interpretable model) to make a tangible impact in the business domain. You can read about our experience on this [post](https://www.linkedin.com/feed/update/urn:li:activity:7180625594085253120/).
+    Awarded 4th place (out of 345 participants) in the Illinois Statistics Datathon 2024. With my team, we performed extensive data pre-processing, exploratory data analysis (EDA), and feature engineering to identify and build key features for Synchrony’s Interactive Voice Response (IVR) System, a “real-world” dataset with millions of observations. We employed Logistic Regression (for its interpretability) to evaluate measured and engineered features’ effects on reducing the number of “floored” calls, effectively resulting in a data-driven decision, with a savings potential of $300,000 per 1% reduction of calls. You can read about our experience on this [post](https://www.linkedin.com/feed/update/urn:li:activity:7180625594085253120/).
 
 - title: "Data Parallelism: How to Train Deep Learning Models on Multiple GPUs"
   issuer: "NVIDIA"
