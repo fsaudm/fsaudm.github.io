@@ -1,44 +1,65 @@
-# Project template
+# Projects - featured first, then academic
+
+- name: HandCV - Hand-Gesture Interactive Resume
+  github: fsaudm/HandCV
+  description: |
+    A webcam-powered, gesture-controlled resume viewer using MediaPipe hand tracking. Navigate resume sections by tilting your hand as a dial, expand cards with an open palm, and collapse with a fist. Built with vanilla JavaScript and HTML5 Canvas - no frameworks, no build step. Try it live at [fsaudm.github.io/hand](https://fsaudm.github.io/hand/).
+
+- name: LangExtract - LLM-Powered Structured Extraction
+  description: |
+    A tool for extracting structured information from unstructured text documents (PDFs, papers) using open-source LLMs deployed on institutional GPU clusters. Supports user-defined extraction instructions and ensures all extracted data has verifiable existence in the source document. Built with LangChain and locally hosted models.
+
+- name: DSRS Knowledge Base (RAG)
+  description: |
+    Centralized institutional knowledge system spanning 70+ DSRS repositories. Prototypes state-of-the-art RAG workflows using pgvector, FAISS, and LangChain/LlamaIndex for semantic search and retrieval across codebases, documentation, and research artifacts.
+
+- name: Semantic Cache for LLM APIs
+  description: |
+    Prototype caching layer to reduce redundant LLM API calls and cost. Uses embedding-based similarity matching to serve cached responses for semantically equivalent queries, significantly reducing external API dependence.
+
+- name: LLM Deployment & Inference Optimization
+  description: |
+    Deployment and optimization of open-source AI models (LLM/VLM, embeddings, TTS, image generation) on A100/H100-class GPUs using vLLM, llama.cpp, and HuggingFace. Includes single-GPU and multi-GPU/distributed inference configurations via OpenAI-compatible endpoints for scalable batch processing.
+
+- name: OpenAI Batch Processing at Scale
+  description: |
+    Production workflows for 100K+ structured API calls to OpenAI models for research data processing. Includes robust error handling, rate limiting, structured output parsing, and cost optimization for large-scale research workflows.
+
+- name: Ashby Prize in Computational Science - Finalist
+  description: |
+    Delivered a real-time demonstration of an agent-based AI image generation system combining proprietary and locally hosted models. Showcased practical LLM deployment and application for research workflows at the UIUC Ashby Prize hackathon.
 
 - name: Object Detection using YOLOv10 and RT-DeTr in AWS
-  github: fsaudm/YOLOv10_RT-DeTr_in_AWS 
+  github: fsaudm/YOLOv10_RT-DeTr_in_AWS
   description: |
-    Implemented object detection in construction sites using YOLOv10 and RT-DeTr architectures with PyTorch and Ultralytics libraries. This project aimed to compare the performance of these two state-of-the-art architectures in terms of speed and accuracy, providing insights into their suitability for real-time object detection tasks, and the inherent tradeoff between accuracy and speed. The models were trained on an AWS SageMaker equipped with GPUs and evaluated on a subset of the *SODA: A large-scale open site object detection dataset for deep learning in construction*. The original dataset can be found [here](https://www.sciencedirect.com/science/article/abs/pii/S0926580522003727). The results and analysis, as well as insightful visualizations of the label distribution and training process are available in the [GitHub repository](https://github.com/fsaudm/YOLOv10_RT-DeTr_in_AWS).
+    Implemented object detection in construction sites using YOLOv10 and RT-DeTr architectures with PyTorch and Ultralytics. Compared performance in terms of speed and accuracy on AWS SageMaker with GPUs, using the SODA construction dataset.
 
-- name: LLMs and other big Deep Learning Models with Nvidia NIMs
-  github: fsaudm/Nvidia-nims  
+- name: LLMs and Deep Learning Models with Nvidia NIMs
+  github: fsaudm/Nvidia-nims
   description: |
-    This project taps into Nvidia's Neural Infrastructure Modules (NIMs) and presents two networks to run large deep learning models. The repository includes examples using the newly released Llama 3.1, run in both its 8B and 405B versions, and how to set the models to perform tasks like reasoning and multi-lingual queries. Additionally, for text-to-image generation, the project features StabilityAI's Stable Diffusion XL, wrapped in a simple Python function to generate high-quality images. The provided Jupyter notebooks (`llama3_1.ipynb` and `stable_diffusion.ipynb`) are easy to use, making it straightforward to explore LLMs and diffusion models. Note that you will need an API key from Nvidia, which you can obtain from NVIDIA's API catalog. The full implementation, including code, results, and setup instructions, is available on [GitHub](https://github.com/fsaudm/Nvidia-nims).
+    Exploration of Nvidia's Neural Infrastructure Modules (NIMs) with Llama 3.1 (8B and 405B) for reasoning and multi-lingual queries, plus StabilityAI's Stable Diffusion XL for text-to-image generation.
 
-- name: GMM and HMM - An implementation from scratch in R
-  #link: github.com/fsaudm
+- name: GMM and HMM - Implementation from Scratch in R
   github: fsaudm/statistical-learning/tree/main/Coding4
-  description: | # This will include new lines to allow paragraphs
-    This is an implementation of a Gaussian Mixture Model using the Expectation-Maximization algorithm, and a Hidden Markov Model through the Baum-Welch and Viterbi algorithms. A detailed, step-by-step R markdown file with the code can be found [here](https://fsaudm.github.io/statistical-learning/Coding4/).
+  description: |
+    Implementation of a Gaussian Mixture Model using EM algorithm, and a Hidden Markov Model through Baum-Welch and Viterbi algorithms. Detailed R markdown walkthrough available [here](https://fsaudm.github.io/statistical-learning/Coding4/).
 
-- name: Linear SVM using SGD - Implementation from scratch in R
-  #link: github.com/fsaudm
+- name: Linear SVM using SGD - Implementation from Scratch in R
   github: fsaudm/statistical-learning/tree/main/Coding5
-  description: | # This will include new lines to allow paragraphs
-    This project is an implementation of a very efficient Linear Support Vector Machine that profits from Stochastic Gradient Descent via the Pegasos algorithm, as proposed by Shalev-Shwartz et al. (2011) in their *Primal Estimated sub-GrAdient SOlver for SVM* [paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://home.ttic.edu/~nati/Publications/PegasosMPB.pdf).
-    You can find the associated R markdown file, with details on the algorithm and the implementation [here](https://fsaudm.github.io/statistical-learning/Coding5/).
-  
-- name: Walmart Store Sales Forecasting
-  #link: github.com/fsaudm
-  github: fsaudm/statistical-learning/tree/main/Project2
-  description: | # This will include new lines to allow paragraphs
-    Data Analysis of historical sales from 45 Walmart stores spread across different regions and forecast of future sales using predictive models: Robust Linear Regression on smoothed data (through SVD), 
-    to identify and present quantitative insights through visual displays highlighting the stores and departments projected to have the highest and lowest sales in the upcoming months. 
-    You can find an R markdown file with the code and the analysis [here](https://fsaudm.github.io/statistical-learning/Project2/).
+  description: |
+    Implementation of a Linear SVM using the Pegasos algorithm (Shalev-Shwartz et al., 2011). R markdown with details [here](https://fsaudm.github.io/statistical-learning/Coding5/).
 
-- name: A computationally fast online model for accurate prediction of post-disaster traffic conditions
-  #link: github.com/fsaudm
+- name: Walmart Store Sales Forecasting
+  github: fsaudm/statistical-learning/tree/main/Project2
+  description: |
+    Data analysis of historical sales from 45 Walmart stores with Robust Linear Regression on SVD-smoothed data, forecasting future sales and identifying top/bottom performing stores and departments.
+
+- name: Post-Disaster Traffic Prediction
   github: fsaudm/Recursive-Estimation-of-Polynomial-Approximation-Kaczmarz-Algorithm
-  description: | # This will include new lines to allow paragraphs
-    The original research by Professor Hadi Meidani, from the Uncertainty Quantification (UQ) research group introduced the application of the Kaczmarz algorithm for real-time, short-term traffic prediction. The proposed method stands out due to its computational efficiency, adaptability to changing traffic conditions, and its unique capability to swiftly incorporate newly streamed data. By leveraging polynomial approximations and exploring various estimation techniques, the paper achieved robust predictions, specifically for atypical traffic scenarios.
-    Expanding upon this foundational work, I sought to critically assess and replicate the methodology, identifying potential areas of refinement. This exploration resulted in the implementation of different ways of ordering the "multivariate vector." The findings highlight the spatial ordering's superior prediction accuracy over the time-based order. This deeper analysis further optimized the real-time traffic prediction in extreme weather conditions using the proposed predictive analysis. You can find this project [here](https://uq.cee.illinois.edu/publication.html#).
+  description: |
+    Replication and extension of Professor Hadi Meidani's Kaczmarz algorithm for real-time, short-term traffic prediction. Explored spatial vs. time-based ordering of multivariate vectors, finding spatial ordering achieved superior prediction accuracy for extreme weather conditions.
 
 - name: Neural Network using NumPy for MNIST
-  github: fsaudm/NeuralNet_in_NumPy  
+  github: fsaudm/NeuralNet_in_NumPy
   description: |
-    This project showcases the implementation of a fully-connected neural network from scratch using only NumPy. The network is trained on the MNIST dataset, and categorizes digits into one of ten classes (0-9) with 94% accuracy. The network features a four-layer architecture, with a total of 164,013 parameters. All activation and helper functions, such as ReLU, Softmax, and Cross-entropy Loss are implemented from scratch. The forward and backward propagation processes are vectorized, and the weights and biases are updated using the gradient descent algorithm. This project is integrated with Weights & Biases for comprehensive experiment tracking. You can dive into the [full implementation and results on GitHub](https://github.com/fsaudm/NeuralNet_in_NumPy), and explore the training logs and hyperparameter optimization on Weights & Biases embedded in the repo. I recently added a notebook with a similar implementation for Fashion MNIST. 
+    Fully-connected neural network from scratch using only NumPy, trained on MNIST (94% accuracy). Four-layer architecture with 164K parameters. All activation functions, forward/backward propagation implemented from scratch. Integrated with Weights & Biases for experiment tracking.

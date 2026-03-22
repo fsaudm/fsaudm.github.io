@@ -9,13 +9,11 @@ darkmode: never
 
 # Personal info
 name: Farid Saud
-title: Data Scientist
+title: Data Scientist | ML Engineer | AI Engineer
 email: gfs3@illinois.edu
-phone: 224-266-4646
 website: fsaudm.github.io
 
 # Social links
-twitter_username: jekyllrb
 github_username:  fsaudm
 instagram_username: faridsaudm
 linkedin_username: faridsaud
@@ -25,13 +23,13 @@ linkedin_username: faridsaud
 # about_title: About Me (Use this to override about section title)
 about_profile_image: profile.jpg
 about_content: | # This will include new lines to allow paragraphs
-  I am a huge enthisiast of Machine Learning, currently pursuing a Master of Science in Statistics at the University of Illinois at Urbana-Champaign. I specialize in <mark>Data Science</mark>, <mark>Machine Learning</mark>, and <mark>Deep Learning</mark>. My work explores the impact of these technologies across various industries, including Finance, Technology, Civil Engineering, and Real Estate, aiming to generate significant value. 
+  I am a Data Scientist & Infrastructure/Services Unit Manager at the [Data Science Research Services (DSRS)](https://dsrs.illinois.edu/about/unit/team) unit at the GIES College of Business, University of Illinois at Urbana-Champaign. I specialize in <mark>Data Science</mark>, <mark>Machine Learning</mark>, <mark>Deep Learning</mark>, and <mark>AI/LLM Engineering</mark>.
 
-  Currently, I am a team lead at the [Data Science Research Services](https://dsrs.illinois.edu/about/unit/team) unit, where we drive research within the GIES College of Business by assisting students, faculty, and staff with their data science, machine learning, computational infrastructure, and data acquisition needs. As I advance in my career as a Data Scientist, I am eager to dive deeper into Data Science itselft, and explore its applications and impact in the fields I mention above, as well as broader applications and the unique challenges different fields present. 
+  At DSRS, I partner with faculty and research stakeholders to deliver datasets, models, and reproducible outputs. I lead the deployment of self-hosted AI services (LLM/VLM, embeddings, text-to-speech, image generation) on A100/H100 GPUs, manage infrastructure via Kubernetes, and mentor interns across Infrastructure and Services. I also lead internal tools like our Knowledge Base (RAG), semantic caching, and AI-powered paper highlighter.
 
-  Beyond academics, I like to follow the advancements in [Artificial Intelligence](https://www.youtube.com/watch?v=fa8k8IQ1_X0), Virtual & Augmented Reality (VR/AR), [fast cars](https://www.youtube.com/watch?v=nSqzp3kdAm4) and drones, and [video games](https://www.youtube.com/watch?v=8fbtx0D2Wyk). I also love traveling and exploring diverse cuisines. I also hold a Master of Science in Civil and Environmental Engineering from the University of Illinois at Urbana-Champaign.
+  I hold two Master's degrees from UIUC - an M.S. in Statistics (Data Science concentration, GPA 4.0) and an M.S. in Data Science + Civil Engineering (GPA 4.0) - and a B.S. in Civil Engineering from Universidad San Francisco de Quito, Ecuador.
 
-# Within the realm of <mark>Construction Engineering and Management</mark>, I specialize in <mark>Project Management</mark>, <mark>Building Information Modeling (BIM)</mark>, and <mark>Virtual Design and Construction (VDC)</mark> and understanding their transformative potential in modern construction projects. I am actively seeking opportunities that allow me to expand my horizons and leverage these computational techniques to their full potential. 
+  Beyond work, I follow advancements in [AI](https://www.youtube.com/watch?v=fa8k8IQ1_X0), VR/AR, [fast cars](https://www.youtube.com/watch?v=nSqzp3kdAm4), drones, and [video games](https://www.youtube.com/watch?v=8fbtx0D2Wyk). I love traveling and exploring diverse cuisines.
 
 
 
@@ -63,6 +61,9 @@ footer_show_references: true
 sass:
   sass_dir: _sass
   style: compressed
+
+exclude:
+  - hand
 
 plugins:
  - jekyll-seo-tag

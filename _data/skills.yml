@@ -1,4 +1,4 @@
-description: "The following are the programming languagues that I use for data science and analysis (and have used for engineering). I am always looking to learn more about these (and new) tools to expand my skills. I have experience with:"
+description: "Programming languages and tools I use for data science, machine learning, AI engineering, and infrastructure."
 languages:
   - name: Python
     icon_type: "svg"
@@ -9,20 +9,17 @@ languages:
   - name: SQL
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg"
-  - name: Julia
-    icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg"
-  - name: Matlab
-    icon_type: "svg"
-    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"
-  - name: C++
+  - name: Bash
     icon_type: "devicon"
-    devicon_class: "devicon-cplusplus-plain"
+    devicon_class: "devicon-bash-plain"
+  - name: JavaScript
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 
-description2: "I am also proficient with essential and popular tools for modern problem-solving and innovation in Data Manipulation, Analytics, Statistics, Machine Learning and Deep Learning. These technologies are:"
+description2: "Data Science, ML/AI, and infrastructure tools I work with:"
 
 data_science_and_analysis_python:
-  - name: Numpy
+  - name: NumPy
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
   - name: Pandas
@@ -31,12 +28,6 @@ data_science_and_analysis_python:
   - name: Matplotlib
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
-  - name: Seaborn
-    icon_type: "svg"
-    icon_url: "icons/seaborn-1.svg"
-  - name: statsmodels
-    icon_type: "svg"
-    icon_url: "icons/statsmodels-logo.svg"
   - name: Scikit-learn
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
@@ -46,15 +37,18 @@ data_science_and_analysis_python:
   - name: TensorFlow
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
-  - name: HuggingFace's Transformers, Accelerate, BitsandBytes
+  - name: HuggingFace Transformers
     icon_type: "svg"
-    icon_url: "https://cdn-lfs.huggingface.co/repos/96/a2/96a2c8468c1546e660ac2609e49404b8588fcf5a748761fa72c154b2836b4c83/942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27hf-logo.svg%3B+filename%3D%22hf-logo.svg%22%3B&response-content-type=image%2Fsvg%2Bxml&Expires=1723927843&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyMzkyNzg0M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy85Ni9hMi85NmEyYzg0NjhjMTU0NmU2NjBhYzI2MDllNDk0MDRiODU4OGZjZjVhNzQ4NzYxZmE3MmMxNTRiMjgzNmI0YzgzLzk0MmNhZDFjY2RhOTA1YWM1YTY1OWRmZDJkNzhiMzQ0ZmNjZmI4NGE4YTNhYzM3MjFlMDhmNDg4MjA1NjM4YTA%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=TeKwvcJ4wLdmpjcmqq2pnS3S3YwL4lh33R7WSe9IDiHL2Ss4wKSmvkO8ljfBGs4DJsphTye8hGD7Ji-vD58hFnaEjkKd1FJMx8MZg-4arLbLB4lP-j5iQKbaUlgxWuJvZ7I7hveYTPfrDTZJrBhdGkETI6h0BF6AzRpoO1rIdat8wdQ3AuZ6%7EGJEjjVGoXf7JJyXi6u5GSAbBU-yqVGUEyH8CKuuWIG2wUlY%7EPvEObeTYkRvM5F%7EYLxAHs4gD7-MVlsy3c8u%7EEfDFQ%7ECy6OxhOKdZtPOpN6GP0v00vrCe71zSXmlfO7SGIRvCFqdwJ35OPS0dAwkfNljvTDn%7E6Wrfw__&Key-Pair-Id=K3ESJI6DHPFC7"
-
-
-  - name: Langchain
+    icon_url: "https://huggingface.co/front/assets/huggingface_logo.svg"
+  - name: LangChain / LlamaIndex
     icon_type: "svg"
     icon_url: "icons/langchain-seeklogo.svg"
-
+  - name: vLLM / llama.cpp
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+  - name: spaCy / NLTK
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
   - name: Streamlit
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original-wordmark.svg"
@@ -66,39 +60,48 @@ data_science_and_analysis_r:
   - name: Tidyverse
     icon_type: "png"
     icon_url: "icons/tidyverse.svg"
+  - name: glmnet / xgboost
+    icon_type: "svg"
+    icon_url: "icons/glmnet.png"
   - name: Shiny
     icon_type: "svg"
     icon_url: "icons/Shiny.png"
-  - name: caret
-    icon_type: "svg"
-    icon_url: "icons/caret.jpeg"
-  - name: glmnet
-    icon_type: "svg"
-    icon_url: "icons/glmnet.png"
-  - name: xgboost
-    icon_type: "svg"
-    icon_url: "icons/xgboost.png"
-
 
 cloud_computing:
-  - name: AWS, SageMaker, S3
+  - name: AWS (EC2, S3, SageMaker)
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-  - name: Azure, Machine Learning Studio
+  - name: Azure
     icon_type: "svg"
     icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
-
+  - name: HPC/GPU Clusters (A100/H100)
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
 
 containerization_and_CI_CD:
   - name: Docker
     icon_type: "svg"
     icon_url: "icons/docker-mark-blue.svg"
-  - name: Kubernetes, at a basic level...
+  - name: Kubernetes (Helm/kubectl/k9s)
     icon_type: "svg"
     icon_url: "icons/Kubernetes.png"
   - name: GitHub Actions
     icon_type: "svg"
-    icon_url: "icons/GitHub Actions.svg"    
+    icon_url: "icons/GitHub Actions.svg"
+
+data_engineering:
+  - name: PostgreSQL / pgvector
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+  - name: Redis
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+  - name: MongoDB
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+  - name: Spark (PySpark)
+    icon_type: "svg"
+    icon_url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg"
 
 data_visualization_and_bi:
   - name: Tableau
@@ -107,11 +110,3 @@ data_visualization_and_bi:
   - name: Power BI
     icon_type: "svg"
     icon_url: "icons/Power-BI.svg"
-
-# civil_engineering_and_construction_management:
-#   - Autodesk AutoCAD
-#   - Civil 3D
-#   - REVIT
-#   - NAVISWORKS
-#   - Oracle PRIMAVERA P6
-#   - MS Projects

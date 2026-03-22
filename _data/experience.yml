@@ -1,52 +1,42 @@
-- company: University of Illinois at Urbana-Champaign
-  dates: August 2021 - Present
+- company: Data Science Research Services (DSRS) - Gies College of Business
+  dates: January 2024 - Present
   description: |
-    **DSRS Team Lead**   (2024-Present)
+    **Data Scientist & Infrastructure/Services Unit Manager**   (Jan 2025 - Present)
     <br />
-    - Manage and contribute to Data Science projects with Python, R and SQL code for faculty and students of the GIES college of Business.
-    - Build and maintain cloud services and databases, set up machine learning environments, and manage deep learning models inference on premises.
-    - Manage DSRS infrastructure: Azure, AWS, Docker, and Kubernetes.
+    - Partner with faculty/research stakeholders to scope research needs, deliver datasets, models, and clear written/visual outputs with reproducible code.
+    - Lead internal tools and prototypes: DSRS Knowledge Base (RAG across 70+ repos), semantic caching layer, AI-powered paper highlighter (LLM/VLM + OCR).
+    - Manage and mentor 4+ interns across Infrastructure and Services: screening, onboarding, code reviews, and milestone reviews.
+    - Deploy and operate self-hosted AI services (LLM/VLM, embeddings, TTS, image generation) on A100/H100 GPUs via OpenAI-compatible endpoints; optimize single/multi-GPU inference.
+    - Deploy and support applications on Kubernetes+Helm; manage databases (Postgres+pgvector), caching (Redis), CI/CD, and monitoring.
 
+    <br />
+    **Data Science Intern - Infrastructure**   (Jan 2024 - Dec 2024)
+    <br />
+    - Supported DevOps for DSRS applications and infrastructure across Azure and on-prem: containerization, health checks, CI/CD (GitHub Actions).
+    - Executed scoped data science tasks end-to-end (data pulls, cleaning, analysis) with reproducible scripts/notebooks.
+    - Evaluated LLM deployments (transformers/vLLM): latency/throughput benchmarks to inform DSRS AI strategy.
 
-- company: 
+- company: Capital Programs - Facilities and Services
+  dates: August 2023 - December 2023
   description: |
-    **Teaching Assistant**   (2021-2024)
+    **Project Manager**
+    <br />
+    - Led 2 end-to-end projects valued between $500K and $5M, ensuring on-time and on-budget delivery.
+    - Coordinated cross-functional teams and ran stakeholder check-ins to keep scope, schedule, and handoffs aligned.
+
+- company: University of Illinois at Urbana-Champaign
+  dates: August 2021 - May 2024
+  description: |
+    **Teaching Assistant**
     <br />
     - Instructed over 200 students across 5 semesters and 13 sections.
-    - Led lecture sessions and office hours sessions, prepared and delivered engaging material, and graded papers and exams
     - Consistently ranked as [Excellent Teacher](https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent): [Fall 2021](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2021-fall.pdf), [Spring 2022](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2022-spring.pdf), [Fall 2022](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2022-fall.pdf), and [Spring 2023](http://citl.illinois.edu/docs/default-source/teachers-ranked-as-excellent/tre-2023-spring.pdf) (4 time winner).
     - Courses Taught: Intermediate Spanish, Spanish Composition
-
-- company: 
-  description: |
-    **Project Manager**   (2023)
-    <br />
-    - Manage design and construction execution, including project scope, contracts, budget, scheduling, and site visits. Consistently participating across multiple project phases, from initial planning and design to construction and eventual closeout 
-    - Regularly engage in meetings with contractors and clients, fostering effective communication and ensuring all parties are aligned on project objectives and deliverables.
-    - Worked in projects with budgets that ranged from $500,000 to $5,000,000, with scopes identified as medium complexity.
-
-- company: 
-  description: |
-    **Construction Management Intern**   (2022)
-    <br />
-    - Supported supervision and coordination of project management services. This included assistance with project budgeting, cost estimates, scheduling, and site visits. 
-    - Assisted with the procurement of professional services, ensuring compliance with statutory requirements, as well as evaluating certificates.
-    - Monitored and reviewed federal, state, and University rules and regulations affecting contract administration and procurement of professional services, materials and labor.
-
-# - company: Milhouse Engineering and Construction 
-#   dates: June 2022 - August 2022
-#   description: |
-#     **Civil Engineering Intern**
-#     <br/>
-#     - Actively participated in the development and revision of designs and documents across various sectors including transportation, aviation, energy, and gas. Worked with clients such as IDOT, CTA, CDA, ComEd.
-#     - Evaluated submittals, schedules, and design/construction standards ensuring that all projects met the required standards and specifications.
-#     - Regularly engaged in meetings with contractors and clients, fostering effective communication and ensuring all parties were aligned on project objectives and deliverables.
 
 - company: Universidad San Francisco de Quito
   dates: January 2018 - May 2019
   description: |
     **Teaching Assistant**
     <br />
-    - Recipient of the undergraduate Teaching Assistantship, Universidad San Francisco de Quito (2018).
-    - Ranked as Excellent Teacher.
+    - Recipient of the undergraduate Teaching Assistantship (2018). Ranked as Excellent Teacher.
     - Courses Taught: Topography, Geometrical Design of Roads

@@ -1,0 +1,67 @@
+name: Sync HandCV
+
+on:
+  repository_dispatch:
+    types: [sync-handcv]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout portfolio
+        uses: actions/checkout@v4
+
+      - name: Checkout HandCV
+        uses: actions/checkout@v4
+        with:
+          repository: fsaudm/HandCV
+          path: _handcv
+          ref: master
+
+      - name: Sync hand/ directory
+        run: |
+          rm -rf hand/
+          mkdir -p hand/js hand/img
+
+          # App files from web2/
+          cp _handcv/web2/app.js hand/
+          cp _handcv/web2/config.js hand/
+          cp _handcv/web2/boxes.js hand/
+          cp _handcv/web2/gestures.js hand/
+
+          # Shared JS (resolve symlinks)
+          cp _handcv/shared/js/config.js hand/js/
+          cp _handcv/shared/js/gestures.js hand/js/
+          cp _handcv/shared/js/boxes.js hand/js/
+          cp _handcv/shared/js/helpers.js hand/js/
+
+          # Shared CSS
+          cp _handcv/shared/style.css hand/
+
+          # Data
+          cp _handcv/resume.json hand/
+
+          # Images
+          cp _handcv/web/img/hand_open.png hand/img/
+          cp _handcv/web/img/hand_pinching.png hand/img/
+
+          # index.html with resolved paths
+          sed 's|shared/js/|js/|g; s|shared/style.css|style.css|g' \
+            _handcv/web2/index.html > hand/index.html
+
+          rm -rf _handcv
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet hand/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add hand/
+          git commit -m "sync: update HandCV from fsaudm/HandCV"
+          git push
