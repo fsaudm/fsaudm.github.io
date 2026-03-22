@@ -1,4 +1,4 @@
-// Shared app helpers — used by both web/ and web2/
+// Drawing helpers for dial mode
 (function() {
   var G = Gestures;
   var C = CONFIG;
@@ -12,7 +12,6 @@
   ];
 
   function drawHandSkeleton(ctx, landmarks, w, h) {
-    // Batch all bones into a single path
     ctx.beginPath();
     for (var b = 0; b < BONE_CONNECTIONS.length; b++) {
       var a0 = BONE_CONNECTIONS[b][0], a1 = BONE_CONNECTIONS[b][1];
@@ -24,7 +23,6 @@
     ctx.lineWidth = C.HAND_BONE_THICKNESS;
     ctx.stroke();
 
-    // Batch all nodes into a single path
     ctx.beginPath();
     for (var j = 0; j < landmarks.length; j++) {
       var p = G.lmPx(landmarks[j], w, h);
@@ -35,48 +33,36 @@
     ctx.fill();
   }
 
-  function drawArc(ctx, cx, cy, r, progress, color, lineWidth) {
+  function drawArc(ctx, cx, cy, r, progress, color, lineWidth, ccw) {
     ctx.beginPath();
-    ctx.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + 2 * Math.PI * progress, false);
+    if (ccw) {
+      ctx.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 - 2 * Math.PI * progress, true);
+    } else {
+      ctx.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + 2 * Math.PI * progress, false);
+    }
     ctx.strokeStyle = color;
     ctx.lineWidth = lineWidth;
     ctx.stroke();
   }
 
-  function buildShelf(secs, fw, snapFn, maxSlots) {
-    var position = snapFn || Math.round;
+  function buildShelf(secs, fw) {
     var num = secs.length;
-    if (maxSlots) num = Math.min(num, maxSlots);
     var totalW = num * (C.SHELF_SLOT_W + C.SHELF_GAP) - C.SHELF_GAP;
-    var startX = position(fw - totalW - 20);
-    var shelfY = position(32);
+    var startX = Math.round(fw - totalW - 20);
+    var shelfY = 32;
     var slots = [];
     for (var i = 0; i < num; i++) {
       slots.push(new ShelfSlot(
-        position(startX + i * (C.SHELF_SLOT_W + C.SHELF_GAP)), shelfY,
-        C.SHELF_SLOT_W, C.SHELF_SLOT_H, C.SHELF_CORNER_COLOR, secs[i].title, i
+        Math.round(startX + i * (C.SHELF_SLOT_W + C.SHELF_GAP)), shelfY,
+        C.SHELF_SLOT_W, C.SHELF_SLOT_H, C.SHELF_CORNER_COLOR, secs[i].title
       ));
     }
     return slots;
   }
 
-  function repositionShelf(slots, fw, snapFn) {
-    var position = snapFn || Math.round;
-    var num = slots.length; if (!num) return;
-    var totalW = num * (C.SHELF_SLOT_W + C.SHELF_GAP) - C.SHELF_GAP;
-    var startX = position(fw - totalW - 20);
-    var shelfY = position(32);
-    for (var i = 0; i < num; i++) {
-      slots[i].x = position(startX + i * (C.SHELF_SLOT_W + C.SHELF_GAP));
-      slots[i].y = shelfY;
-    }
-  }
-
   window.AppHelpers = {
-    BONE_CONNECTIONS: BONE_CONNECTIONS,
     drawHandSkeleton: drawHandSkeleton,
     drawArc: drawArc,
     buildShelf: buildShelf,
-    repositionShelf: repositionShelf,
   };
 })();
