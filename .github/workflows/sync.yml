@@ -12,8 +12,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout portfolio
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Checkout HandCV
         uses: actions/checkout@v4
@@ -22,47 +21,12 @@ jobs:
           path: _handcv
           ref: master
 
-      - name: Sync handcv/ directory
+      - name: Sync handcv/
         run: |
           rm -rf handcv/
           cp -r _handcv/dial handcv
-
-          # Compile resume/*.md + index.json into a single sections.json
-          python3 -c "
-          import json, os
-          idx = json.load(open('_handcv/resume/index.json'))
-          sections = []
-          for f in idx:
-              text = open('_handcv/resume/' + f).read()
-              parts = text.split('---')
-              fm = {}
-              for line in parts[1].strip().split(chr(10)):
-                  kv = line.split(':', 1)
-                  if len(kv) == 2:
-                      fm[kv[0].strip()] = kv[1].strip()
-              body = '---'.join(parts[2:]).strip() if len(parts) > 2 else ''
-              sections.append({'title': fm.get('title', ''), 'body': body})
-          json.dump(sections, open('handcv/sections.json', 'w'), indent=2)
-          "
-
-          # Replace the .md loader in app.js with a simple JSON fetch
-          python3 -c "
-          import re
-          code = open('handcv/app.js').read()
-          old = re.search(r'// ── Resume data.*?sections = C\.FALLBACK_SECTIONS;\s*\}', code, re.DOTALL)
-          if old:
-              new_loader = '''// ── Resume data ──
-    var sections;
-    try {
-      var resp = await fetch('sections.json');
-      sections = await resp.json();
-    } catch(e) {
-      sections = C.FALLBACK_SECTIONS;
-    }'''
-              code = code[:old.start()] + new_loader + code[old.end():]
-          open('handcv/app.js', 'w').write(code)
-          "
-
+          cp -r _handcv/resume handcv/resume
+          sed -i "s|\.\./resume/|resume/|g" handcv/app.js
           rm -rf _handcv
 
       - name: Check for changes
