@@ -20,7 +20,7 @@ import { FilesetResolver, HandLandmarker } from "https://cdn.jsdelivr.net/npm/@m
   var drawHandSkeleton = AppHelpers.drawHandSkeleton;
   var drawArc = AppHelpers.drawArc;
 
-  // ── Resume data (loaded from resume/*.md) ──
+  // ── Resume data (loaded from resume/*.txt) ──
   var sections;
   try {
     var manifest = await fetch('resume/index.json').then(function(r) { return r.json(); });
