@@ -20,21 +20,11 @@ import { FilesetResolver, HandLandmarker } from "https://cdn.jsdelivr.net/npm/@m
   var drawHandSkeleton = AppHelpers.drawHandSkeleton;
   var drawArc = AppHelpers.drawArc;
 
-  // ── Resume data (loaded from resume/*.txt) ──
+  // ── Resume data ──
   var sections;
   try {
-    var manifest = await fetch('resume/index.json').then(function(r) { return r.json(); });
-    sections = [];
-    for (var mi = 0; mi < manifest.length; mi++) {
-      var mdText = await fetch('resume/' + manifest[mi]).then(function(r) { return r.text(); });
-      var parts = mdText.split('---');
-      var fm = {};
-      parts[1].trim().split('\n').forEach(function(line) {
-        var kv = line.split(':');
-        if (kv.length >= 2) fm[kv[0].trim()] = kv.slice(1).join(':').trim();
-      });
-      sections.push({ title: fm.title, body: parts.slice(2).join('---').trim() });
-    }
+    var resp = await fetch('sections.json');
+    sections = await resp.json();
   } catch(e) {
     sections = C.FALLBACK_SECTIONS;
   }
