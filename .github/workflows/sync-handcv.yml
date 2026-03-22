@@ -27,7 +27,19 @@ jobs:
           rm -rf handcv/
           cp -r _handcv/dial handcv
           cp -r _handcv/resume handcv/resume
+
+          # Fix resume path for deployed version
           sed -i "s|\.\./resume/|resume/|g" handcv/app.js
+
+          # Rename .md to .txt so Jekyll doesn't process them
+          for f in handcv/resume/*.md; do
+            mv "$f" "${f%.md}.txt"
+          done
+          # Update index.json to reference .txt
+          sed -i 's/\.md/\.txt/g' handcv/resume/index.json
+          # Update app.js comment
+          sed -i 's/resume\/\*\.md/resume\/*.txt/g' handcv/app.js
+
           rm -rf _handcv
 
       - name: Check for changes
