@@ -19,25 +19,24 @@ jobs:
           path: _handcv
           ref: master
 
-      - name: Sync hand/ directory
+      - name: Sync handcv/ directory
         run: |
-          rm -rf hand/
-          cp -r _handcv/dial hand
-          cp _handcv/resume.json hand/resume.json
-          # Fix resume path for deployed version (flat, not ../resume.json)
-          sed -i "s|../resume.json|resume.json|g" hand/app.js
+          rm -rf handcv/
+          cp -r _handcv/dial handcv
+          cp -r _handcv/resume handcv/resume
+          sed -i "s|\.\./resume/|resume/|g" handcv/app.js
           rm -rf _handcv
 
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet hand/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet handcv/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add hand/
+          git add handcv/
           git commit -m "sync: update HandCV from fsaudm/HandCV"
           git push
