@@ -1,95 +1,47 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-
+<html lang="en" data-theme="dark">
 {%- include head.html -%}
-
 <body>
-
   {%- include header.html -%}
 
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      
-      <!-- Floating Index -->
-      <nav id="floating-index">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#certifications">Awards</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#languages">Languages</a></li>
-          <li><a href="#more-content">More</a></li>
-        </ul>
-      </nav>
+  <main class="site-content">
+    {%- include about.html -%}
 
-      <div id="about">
-        {%- include about.html -%}
+    <div class="grid-2">
+      <div>
+        {%- if site.data.experience.size > 0 -%}{%- include experience.html -%}{%- endif -%}
       </div>
-            
-      <div id="skills">
-        {%- if site.data.skills.size > 0 -%}
-          {%- include skills.html -%}
-        {%- endif -%}
+      <div>
+        {%- if site.data.education.size > 0 -%}{%- include education.html -%}{%- endif -%}
       </div>
+    </div>
 
-      <div id="projects">
-        {%- if site.data.projects.size > 0 -%}
-          {%- include projects.html -%}
-        {%- endif -%}
-      </div>
+    {%- if site.data.skills.size > 0 -%}{%- include skills.html -%}{%- endif -%}
+    {%- if site.data.projects.size > 0 -%}{%- include projects.html -%}{%- endif -%}
+    {%- if site.data.certifications.size > 0 -%}{%- include certifications.html -%}{%- endif -%}
 
-      <div id="certifications">
-        {%- if site.data.certifications.size > 0 -%}
-          {%- include certifications.html -%}
-        {%- endif -%}
+    <div class="grid-2">
+      <div>
+        {%- if site.data.languages.size > 0 -%}{%- include languages.html -%}{%- endif -%}
       </div>
-
-      <div id="experience">
-        {%- if site.data.experience.size > 0 -%}
-          {%- include experience.html -%}
-        {%- endif -%}
+      <div>
+        {%- if site.more_content -%}{%- include more.html -%}{%- endif -%}
       </div>
-
-      <div id="education">
-        {%- if site.data.education.size > 0 -%}
-          {%- include education.html -%}
-        {%- endif -%}
-      </div>
-    
-      <div id="languages">
-        {%- if site.data.languages.size > 0 -%}
-          {%- include languages.html -%}
-        {%- endif -%}
-      </div>
-
-      <div id="more-content">
-        {%- if site.more_content -%}
-          {%- include more.html -%}
-        {%- endif -%}
-      </div>
-
     </div>
   </main>
 
   {%- include footer.html -%}
 
-
-  <!-- Smooth Scrolling JS Script -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const links = document.querySelectorAll('#floating-index a');
-      for (const link of links) {
-        link.addEventListener('click', function(e) {
-          e.preventDefault();
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-          });
-        });
-      }
+    document.querySelector('[data-theme-toggle]').addEventListener('click', function() {
+      var t = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      localStorage.setItem('theme', t);
     });
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.05 });
+    document.querySelectorAll('.section').forEach(function(el) { obs.observe(el); });
   </script>
 </body>
-
 </html>

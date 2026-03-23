@@ -5,6 +5,4 @@ gem "jekyll-seo-tag"
 gem "csv"
 gem "base64"
 gem "bigdecimal"
-gem "webrick"
-
-gemspec
+gem "webrick", group: :development

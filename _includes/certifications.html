@@ -1,26 +1,12 @@
-<div class="container certifications-container">
-  <h3>{{ site.certifications_title | default: "Awards & Certifications" }}</h3>
-  {% for certification in site.data.certifications %}
-    <div class="row clearfix certification">
-      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-        <h4 class="name">
-          {%- if certification.link -%}
-            {% include a.html href=certification.link %}
-          {%- endif -%}
-          {{ certification.title }}
-          {%- if certification.link -%}
-            </a>
-          {%- endif -%}
-        </h4>
-        <p><b>{{ certification.issuer }}</b></p>
-        <p>{{ certification.date }}</p>
-      </div>
-      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-        {%- if certification.quote -%}
-          <p class="quote">{{ certification.quote }}</p>
-        {%- endif -%}
-        {{ certification.description | markdownify }}
-      </div>
+<div class="section" id="certifications">
+  <div class="section-label">Awards & Certifications</div>
+  {% for cert in site.data.certifications %}
+  <div class="card">
+    <div class="cert-title">
+      {% if cert.link %}<a href="{{ cert.link }}" target="_blank">{{ cert.title }}</a>{% else %}{{ cert.title }}{% endif %}
     </div>
+    <div class="cert-meta">{{ cert.issuer }} - {{ cert.date }}</div>
+    <div class="cert-desc">{{ cert.description | markdownify }}</div>
+  </div>
   {% endfor %}
 </div>

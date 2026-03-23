@@ -1,18 +1,17 @@
-<div class="container education-container">
-  <h3>{{ site.education_title | default: "Education" }}</h3>
-  {% for education in site.data.education %}
-    <div class="row clearfix education">
-      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-        <h4>{{ education.name }}</h4>
-        <p><b>{{ education.qualification }}</b></p>
-        <p>{{ education.dates }}</p>
+<div class="section" id="education">
+  <div class="section-label">Education</div>
+  {% for edu in site.data.education %}
+  <div class="card">
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-company">{{ edu.qualification }}</span>
+        <span class="entry-dates">{{ edu.dates }}</span>
       </div>
-      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-        {%- if education.quote -%}
-          <p class="quote">{{ education.quote }}</p>
-        {%- endif -%}
-        {{ education.description | markdownify }}
+      <div class="entry-description">
+        <p><strong>{{ edu.name }}</strong></p>
+        {{ edu.description | markdownify }}
       </div>
     </div>
+  </div>
   {% endfor %}
 </div>

@@ -1,14 +1,11 @@
-<div class="container languages-container">
-    <h3>{{ site.languages_title | default: "Languages" }}</h3>
-    <p>
-        {{ site.data.languages.description }}
-    </p>
-    <ul style="list-style: none; padding-left: 0;">
-        {% for language in site.data.languages.languages %}
-        <li>
-            <img src="https://flagsapi.com/{{ language.country_code }}/flat/32.png" alt="{{ language.name }} flag" style="margin-right: 10px;">
-            <b>{{ language.name }}</b> - {{ language.proficiency }}
-        </li>
-        {% endfor %}
-    </ul>
+<div class="section" id="languages">
+  <div class="section-label">Languages</div>
+  <div class="card">
+    {% for lang in site.data.languages.languages %}
+    <div class="language-item">
+      <span class="language-name">{{ lang.name }}</span>
+      <span class="language-level">{{ lang.proficiency }}</span>
+    </div>
+    {% endfor %}
+  </div>
 </div>

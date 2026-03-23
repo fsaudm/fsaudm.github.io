@@ -1,30 +1,16 @@
-<div class="container experience-container">
-  <h3>{{ site.experience_title | default: "Experience" }}</h3>
-  {% for experience in site.data.experience %}
-    <div class="row clearfix experience">
-      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-        <h4 class="name">
-          {%- if experience.link -%}
-            {% include a.html href=experience.link %}
-          {%- endif -%}
-          {{ experience.company }}
-          {%- if experience.link -%}
-            </a>
-          {%- endif -%}
-        </h4>
-        <p><b>{{ experience.job_title }}</b></p>
-        <p>{{ experience.dates }}</p>
-        {% for job in experience.jobs %}
-          <p><b>{{ job.title }}</b></p>
-          <p>{{ job.dates }}</p>
-        {% endfor %}
+<div class="section" id="experience">
+  <div class="section-label">Experience</div>
+  {% for exp in site.data.experience %}
+  <div class="card">
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-company">
+          {% if exp.link %}<a href="{{ exp.link }}" target="_blank">{{ exp.company }}</a>{% else %}{{ exp.company }}{% endif %}
+        </span>
+        <span class="entry-dates">{{ exp.dates }}</span>
       </div>
-      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-        {%- if experience.quote -%}
-          <p class="quote">{{ experience.quote }}</p>
-        {%- endif -%}
-        {{ experience.description | strip | markdownify }}
-      </div>
+      <div class="entry-description">{{ exp.description | markdownify }}</div>
     </div>
+  </div>
   {% endfor %}
 </div>
