@@ -1,28 +1,14 @@
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: fsaudm/fsaudm.github.io
 
-#Darkmode
-darkmode: never
-
-
-
-# Personal info
 name: Farid Saud
 title: Data Scientist | ML Engineer | AI Engineer
 email: gfs3@illinois.edu
-website: fsaudm.github.io
 
-# Social links
-github_username:  fsaudm
-instagram_username: faridsaudm
+github_username: fsaudm
 linkedin_username: faridsaud
 
-
-# About Section
-# about_title: About Me (Use this to override about section title)
 about_profile_image: profile.jpg
-about_content: | # This will include new lines to allow paragraphs
+about_content: |
   I am a Data Scientist & Infrastructure/Services Unit Manager at the [Data Science Research Services (DSRS)](https://dsrs.illinois.edu/about/unit/team) unit at the GIES College of Business, University of Illinois at Urbana-Champaign. I specialize in <mark>Data Science</mark>, <mark>Machine Learning</mark>, <mark>Deep Learning</mark>, and <mark>AI/LLM Engineering</mark>.
 
   At DSRS, I partner with faculty and research stakeholders to deliver datasets, models, and reproducible outputs. I lead the deployment of self-hosted AI services (LLM/VLM, embeddings, text-to-speech, image generation) on A100/H100 GPUs, manage infrastructure via Kubernetes, and mentor interns across Infrastructure and Services. I also lead internal tools like our Knowledge Base (RAG), semantic caching, and AI-powered paper highlighter.
@@ -31,36 +17,15 @@ about_content: | # This will include new lines to allow paragraphs
 
   Beyond work, I follow advancements in [AI](https://www.youtube.com/watch?v=fa8k8IQ1_X0), VR/AR, [fast cars](https://www.youtube.com/watch?v=nSqzp3kdAm4), drones, and [video games](https://www.youtube.com/watch?v=8fbtx0D2Wyk). I love traveling and exploring diverse cuisines.
 
-
-
-
-# More Section
 more_title: "A Little More About Me"
 more_content: |
-  Here are some additional details about me:
-  
   - I recently achieved a 1-year streak on Duolingo for practicing Italian, Arabic, and Korean!
   - So far, I have traveled to [18 countries](https://visitedplaces.com/view/?map=world&projection=geoNaturalEarth1&theme=dark-blue&water=1&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=0&autozoom=none&autostep=0&home=US&places=~US.daaa44_MX_PR_CO_EC.73aa64_PE_BR_AR_UY_ES_FR_NL_DE_CH_IT_AT_SE_DK) and 24 states in the US.
-
-  - I am committed to continuous learning and growth, and I am always looking for opportunities to expand my knowledge and skills. I cannot recommend enough [Kurzgesagt](https://www.youtube.com/@kurzgesagt), [StatQuest](https://www.youtube.com/@statquest), and [Brilliant](https://brilliant.org/). Andrej Karpathy and his series [series](https://karpathy.ai/) are amazing, and I am very excited about [Eureka Labs](https://eurekalabs.ai/)!
-  
-#For a traditional view of my academic and professional journey, you can check my [resume](https://uofi.box.com/s/q1jzz2jo1bou04atrciunc2lwbo3wrj0).
-
-  
-
-
-# Footer
-footer_show_references: true
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-
+  - I cannot recommend enough [Kurzgesagt](https://www.youtube.com/@kurzgesagt), [StatQuest](https://www.youtube.com/@statquest), and [Brilliant](https://brilliant.org/). Andrej Karpathy's [series](https://karpathy.ai/) are amazing, and I am very excited about [Eureka Labs](https://eurekalabs.ai/)!
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
