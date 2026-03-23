@@ -19,7 +19,7 @@ jobs:
         with:
           repository: fsaudm/HandCV
           path: _handcv
-          ref: master
+          ref: main
 
       - name: Sync handcv/
         run: |
