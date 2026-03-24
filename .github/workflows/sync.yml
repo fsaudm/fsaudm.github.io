@@ -12,10 +12,10 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Checkout HandCV
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: fsaudm/HandCV
           path: _handcv
